@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"fullName\": \"Alice Smith\",\r\n  \"mobile\": \"9876503223\",\r\n  \"email\": \"manish@example.com\",\r\n  \"businessName\": \"Alice's Shop\",\r\n  \"panCardNumber\": \"ABCDE1234F\",\r\n  \"categories\": [\"retail\", \"electronics\"],\r\n  \"businessAddress\": \"123 Main St\",\r\n  \"gstin\": \"22AAAAA0000A1Z5\",\r\n  \"businessType\": \"Retailer\",\r\n  \"turnover\": \"5000000\",\r\n  \"bankDetails\": {\r\n    \"accountNumber\": \"123456789012\",\r\n    \"ifscCode\": \"SBIN0001234\",\r\n    \"bankName\": \"State Bank\",\r\n    \"bankPlace\": \"Mumbai\"\r\n  }\r\n}",
+							"raw": "{\r\n  \"fullName\": \"Alice Smith\",\r\n  \"mobile\": \"9876503229\",\r\n  \"email\": \"manis@example.com\",\r\n  \"businessName\": \"Alice's Shop\",\r\n  \"panCardNumber\": \"ABCDE1234F\",\r\n  \"categories\": [\"retail\", \"electronics\"],\r\n  \"businessAddress\": \"123 Main St\",\r\n  \"gstin\": \"22AAAAA0000A1Z5\",\r\n  \"businessType\": \"Retailer\",\r\n  \"turnover\": \"5000000\",\r\n  \"bankDetails\": {\r\n    \"accountNumber\": \"123456789012\",\r\n    \"ifscCode\": \"SBIN0001234\",\r\n    \"bankName\": \"State Bank\",\r\n    \"bankPlace\": \"Mumbai\"\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -166,6 +166,15 @@
 					"request": {
 						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"mobile\": \"1234567890\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "http://localhost:3001/api/auth/resend-otp",
 							"protocol": "http",
@@ -191,7 +200,18 @@
 					"name": "testing",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3003/health",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"health"
+							]
+						}
 					},
 					"response": []
 				}
@@ -210,7 +230,7 @@
 							"formdata": [
 								{
 									"key": "name",
-									"value": "Smartphone with Camera",
+									"value": "Iphone",
 									"type": "text"
 								},
 								{
@@ -220,7 +240,7 @@
 								},
 								{
 									"key": "price",
-									"value": "30000",
+									"value": "80000",
 									"type": "text"
 								},
 								{
@@ -235,7 +255,7 @@
 								},
 								{
 									"key": "categoryId",
-									"value": "cat126",
+									"value": "123",
 									"type": "text"
 								},
 								{
@@ -262,9 +282,28 @@
 				},
 				{
 					"name": "Get Products",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost:3004/api/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3004",
+							"path": [
+								"api",
+								"products"
+							]
+						}
 					},
 					"response": []
 				},
@@ -296,9 +335,16 @@
 				},
 				{
 					"name": "Get Product By Id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
 						"url": {
 							"raw": "http://localhost:3004/api/products/b98b54c0-61f8-436d-bdb7-a2338570cdea",
 							"protocol": "http",
@@ -320,8 +366,48 @@
 					"request": {
 						"method": "PUT",
 						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Charger",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "good",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "1222",
+									"type": "text"
+								},
+								{
+									"key": "stock",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "sellerId",
+									"value": "32",
+									"type": "text"
+								},
+								{
+									"key": "categoryId",
+									"value": "34",
+									"type": "text"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": "postman-cloud:///1ef8cc13-51e9-4c30-a766-327c6d9d28ff"
+								}
+							]
+						},
 						"url": {
-							"raw": "http://localhost:3004/api/products/550e8400-e29b-41d4-a716-446655440002",
+							"raw": "http://localhost:3004/api/products/67f8ca802acca221256d3dd3",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -330,7 +416,7 @@
 							"path": [
 								"api",
 								"products",
-								"550e8400-e29b-41d4-a716-446655440002"
+								"67f8ca802acca221256d3dd3"
 							]
 						}
 					},
@@ -390,7 +476,20 @@
 							"name": "GET Single Category with Subcategories",
 							"request": {
 								"method": "GET",
-								"header": []
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3005/api/categories/67f8ed18198e84f93810edfc",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3005",
+									"path": [
+										"api",
+										"categories",
+										"67f8ed18198e84f93810edfc"
+									]
+								}
 							},
 							"response": []
 						},
@@ -427,7 +526,19 @@
 							"name": "Get All Categories",
 							"request": {
 								"method": "GET",
-								"header": []
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3005/api/categories",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3005",
+									"path": [
+										"api",
+										"categories"
+									]
+								}
 							},
 							"response": []
 						},
@@ -491,7 +602,20 @@
 							"name": "Delete a Category",
 							"request": {
 								"method": "DELETE",
-								"header": []
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3005/api/categories/<category-id>",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3005",
+									"path": [
+										"api",
+										"categories",
+										"<category-id>"
+									]
+								}
 							},
 							"response": []
 						}
