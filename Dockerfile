@@ -21,8 +21,12 @@ COPY . .
 ARG PORT=3000
 EXPOSE ${PORT}
 
+# Optional health check (for Docker Compose)
+HEALTHCHECK --interval=30s --timeout=3s \
+  CMD curl -f http://localhost:${PORT}/ || exit 1
+
 # Use dumb-init as PID 1
 ENTRYPOINT ["dumb-init", "--"]
 
-# Start the application
-CMD if [ "$NODE_ENV" = "development" ]; then npx nodemon index.js; else node index.js; fi
+# Start the application, adjusted for potential api/index.js
+CMD if [ "$NODE_ENV" = "development" ]; then npx nodemon ${ENTRY_POINT:-index.js}; else node ${ENTRY_POINT:-index.js}; fi
