@@ -41,10 +41,10 @@ services:
       context: ./Notification Service
       dockerfile: ../Dockerfile
     ports:
-      - "3002:3002"
+      - "3003:3003"
     environment:
       - NODE_ENV=development
-      - PORT=3002
+      - PORT=3003
       - MONGO_URI=mongodb+srv://pavikaiinfox:7jH88Gq3J6zEfuFG@microservices.cyjlgf2.mongodb.net/?retryWrites=true&w=majority&appName=microservices
       - RABBITMQ_URL=amqp://rabbitmq:5672
       - NODE_OPTIONS=--dns-result-order=ipv4first
