@@ -44,7 +44,7 @@ Usage
    npm run dev
 - This uses nodemon to automatically restart on file changes.
 2. Start the service in production mode:
-  ```bash
+   ```bash
      npm start
 3. The service will be available at http://localhost:3004 by default.
 
