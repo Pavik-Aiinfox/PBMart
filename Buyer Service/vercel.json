@@ -13,7 +13,6 @@
       }
     ],
     "env": {
-      "NODE_ENV": "production",
       "BUYER_PORT": "3002"
     }
   }
