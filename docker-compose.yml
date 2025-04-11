@@ -26,10 +26,10 @@ services:
       context: ./Buyer Service
       dockerfile: ../Dockerfile
     ports:
-      - "3000:3000"
+      - "3002:3002"
     environment:
       - NODE_ENV=development
-      - PORT=3000
+      - PORT=3002
       - MONGO_URI=mongodb+srv://pavikaiinfox:7jH88Gq3J6zEfuFG@microservices.cyjlgf2.mongodb.net/?retryWrites=true&w=majority&appName=microservices
       - JWT_SECRET=secret-key
       - JWT_EXPIRES_IN=7d
