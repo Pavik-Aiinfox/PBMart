@@ -25,5 +25,5 @@ NotificationService.startListening()
   .then(() => logger.info('Notification Service started listening'))
   .catch((err) => logger.error(`Notification Service startup error: ${err.message}`));
 
-const PORT = process.env.PORT || 3002;
-app.listen(PORT, () => logger.info(`Notification Service running on port ${PORT}`));
+const NOTIFICATION_PORT = process.env.NOTIFICATION_PORT || 3002;
+app.listen(NOTIFICATION_PORT, () => logger.info(`Notification Service running on port ${NOTIFICATION_PORT}`));

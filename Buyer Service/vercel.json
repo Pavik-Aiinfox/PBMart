@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "/Buyer Service/index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/auth/(.*)",
+        "dest": "/Buyer Service/index.js"
+      }
+    ],
+    "env": {
+      "NODE_ENV": "production",
+      "BUYER_PORT": "3002"
+    }
+  }

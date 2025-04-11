@@ -28,7 +28,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.AUTH_PORT || 8000;
 app.listen(PORT, () => {
   logger.info(`AuthService running on port ${PORT}`);
 });

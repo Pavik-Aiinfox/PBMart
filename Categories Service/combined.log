@@ -334,3 +334,7 @@
 {"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-11T10:46:41.291Z"}
 {"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-11T10:47:01.206Z"}
 {"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-11T10:47:01.720Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-11T11:02:54.560Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-11T11:02:55.533Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-11T11:03:56.933Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-11T11:03:57.780Z"}
