@@ -1,0 +1,52 @@
+2025-04-10T06:26:30.271Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T06:26:54.886Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T06:28:56.174Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T06:29:08.988Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T06:33:31.853Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T06:33:40.643Z [error]: Verify OTP error: Request failed with status code 404
+2025-04-10T06:35:03.570Z [error]: Verify OTP error: Request failed with status code 404
+2025-04-10T06:39:06.027Z [error]: Verify OTP error: Request failed with status code 404
+2025-04-10T06:50:38.711Z [error]: Verify OTP error: Request failed with status code 404
+2025-04-10T07:13:56.357Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:13:58.857Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:00.636Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:02.167Z [error]: Verify OTP error: Too many failed attempts
+2025-04-10T07:14:04.733Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:40.438Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:44.909Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:46.466Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:47.843Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:49.975Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:51.315Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:15:01.038Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T10:56:51.843Z [error]: RabbitMQ connection error: connect ECONNREFUSED ::1:5672
+2025-04-10T13:38:52.748Z [error]: RabbitMQ connection error: read ECONNRESET
+2025-04-10T13:39:50.088Z [error]: RabbitMQ connection error: read ECONNRESET
+2025-04-10T13:40:40.174Z [error]: RabbitMQ connection error: read ECONNRESET
+2025-04-10T14:22:11.105Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:22:16.120Z [error]: RabbitMQ connection attempt 2 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:22:21.125Z [error]: RabbitMQ connection attempt 3 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:22:26.139Z [error]: RabbitMQ connection attempt 4 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:22:31.153Z [error]: RabbitMQ connection attempt 5 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:22:31.154Z [error]: Max retries reached. RabbitMQ connection failed.
+2025-04-10T14:22:31.155Z [error]: Initial RabbitMQ connection failed, will retry on demand:
+2025-04-10T14:23:08.895Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:23:13.917Z [error]: RabbitMQ connection attempt 2 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:23:18.933Z [error]: RabbitMQ connection attempt 3 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:23:23.944Z [error]: RabbitMQ connection attempt 4 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:23:28.962Z [error]: RabbitMQ connection attempt 5 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:23:28.964Z [error]: Max retries reached. RabbitMQ connection failed.
+2025-04-10T14:23:28.966Z [error]: Initial RabbitMQ connection failed, will retry on demand:
+2025-04-10T14:38:33.617Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:39:18.993Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:39:24.001Z [error]: RabbitMQ connection attempt 2 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:39:29.015Z [error]: RabbitMQ connection attempt 3 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:39:34.036Z [error]: RabbitMQ connection attempt 4 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:40:28.088Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:41:23.616Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:41:28.628Z [error]: RabbitMQ connection attempt 2 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:41:33.637Z [error]: RabbitMQ connection attempt 3 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:41:38.650Z [error]: RabbitMQ connection attempt 4 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:41:43.664Z [error]: RabbitMQ connection attempt 5 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:41:43.665Z [error]: Max retries reached. RabbitMQ connection failed.
+2025-04-10T14:41:43.666Z [error]: Initial RabbitMQ connection failed, will retry on demand:

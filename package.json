@@ -1,0 +1,14 @@
+{
+  "name": "pbmart-backend",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "deploy": "vercel"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.12",
+     "nodemon": "^3.1.9"
+  },
+  "workspaces": ["apps/*", "packages/*"],
+  "packageManager": "npm@9.6.7"
+}

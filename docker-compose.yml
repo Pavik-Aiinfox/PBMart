@@ -1,0 +1,91 @@
+version: '3.8'
+services:
+  auth-service:
+    build:
+      context: ./Auth Service
+      dockerfile: ../Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=development
+      - PORT=3001
+      - MONGO_URI=mongodb+srv://pavikaiinfox:7jH88Gq3J6zEfuFG@microservices.cyjlgf2.mongodb.net/?retryWrites=true&w=majority&appName=microservices
+      - JWT_SECRET=secret-key
+      - RAPIDMQ_WINDOW=3600
+      - RAPIDMQ_RATE_LIMIT=3
+      - RABBITMQ_URL=amqp://rabbitmq:5672
+      - NODE_OPTIONS=--dns-result-order=ipv4first
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    networks:
+      - app-network
+
+  buyer-service:
+    build:
+      context: ./Buyer Service
+      dockerfile: ../Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - MONGO_URI=mongodb+srv://pavikaiinfox:7jH88Gq3J6zEfuFG@microservices.cyjlgf2.mongodb.net/?retryWrites=true&w=majority&appName=microservices
+      - JWT_SECRET=secret-key
+      - JWT_EXPIRES_IN=7d
+    networks:
+      - app-network
+
+  notification-service:
+    build:
+      context: ./Notification Service
+      dockerfile: ../Dockerfile
+    ports:
+      - "3002:3002"
+    environment:
+      - NODE_ENV=development
+      - PORT=3002
+      - MONGO_URI=mongodb+srv://pavikaiinfox:7jH88Gq3J6zEfuFG@microservices.cyjlgf2.mongodb.net/?retryWrites=true&w=majority&appName=microservices
+      - RABBITMQ_URL=amqp://rabbitmq:5672
+      - NODE_OPTIONS=--dns-result-order=ipv4first
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    networks:
+      - app-network
+
+  product-service:
+    build:
+      context: ./Product Service
+      dockerfile: ../Dockerfile
+    ports:
+      - "3004:3004"
+    environment:
+      - NODE_ENV=development
+      - PORT=3004
+      - MONGO_URI=mongodb+srv://pavikaiinfox:7jH88Gq3J6zEfuFG@microservices.cyjlgf2.mongodb.net/products?retryWrites=true&w=majority&appName=products
+      - JWT_SECRET=your-very-secure-secret-key-here
+      - RABBITMQ_URL=amqp://rabbitmq:5672
+      - NODE_OPTIONS=--dns-result-order=ipv4first
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    networks:
+      - app-network
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672" # AMQP port
+      - "15672:15672" # Management UI port
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

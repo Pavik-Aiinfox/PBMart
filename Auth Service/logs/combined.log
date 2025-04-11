@@ -1,0 +1,143 @@
+2025-04-10T06:11:24.743Z [info]: AuthService running on port 3001
+2025-04-10T06:11:24.828Z [info]: MongoDB connected successfully
+2025-04-10T06:17:07.542Z [info]: AuthService running on port 3001
+2025-04-10T06:17:08.221Z [info]: MongoDB connected successfully
+2025-04-10T06:17:51.052Z [info]: AuthService running on port 3001
+2025-04-10T06:17:51.686Z [info]: MongoDB connected successfully
+2025-04-10T06:20:59.022Z [info]: AuthService running on port 3001
+2025-04-10T06:20:59.795Z [info]: MongoDB connected successfully
+2025-04-10T06:24:20.991Z [info]: OTP stored for mobile: 9876543210
+2025-04-10T06:24:20.993Z [info]: OTP 763582 generated for mobile: 9876543210 (SMS pending)
+2025-04-10T06:26:30.271Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T06:26:47.332Z [info]: OTP stored for mobile: 9876543210
+2025-04-10T06:26:47.333Z [info]: OTP 272084 generated for mobile: 9876543210 (SMS pending)
+2025-04-10T06:26:54.886Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T06:28:47.571Z [info]: OTP stored for mobile: 1234567890
+2025-04-10T06:28:47.572Z [info]: OTP 448891 generated for mobile: 1234567890 (SMS pending)
+2025-04-10T06:28:56.174Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T06:29:08.988Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T06:32:37.458Z [info]: AuthService running on port 3001
+2025-04-10T06:32:38.203Z [info]: MongoDB connected successfully
+2025-04-10T06:33:31.853Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T06:33:37.244Z [info]: OTP stored for mobile: 1234567890
+2025-04-10T06:33:37.245Z [info]: OTP 123456 generated for mobile: 1234567890 (SMS pending)
+2025-04-10T06:33:40.643Z [error]: Verify OTP error: Request failed with status code 404
+2025-04-10T06:35:03.570Z [error]: Verify OTP error: Request failed with status code 404
+2025-04-10T06:37:17.855Z [info]: AuthService running on port 3001
+2025-04-10T06:37:18.471Z [info]: MongoDB connected successfully
+2025-04-10T06:37:36.798Z [info]: AuthService running on port 3001
+2025-04-10T06:37:37.431Z [info]: MongoDB connected successfully
+2025-04-10T06:38:31.976Z [info]: AuthService running on port 3001
+2025-04-10T06:38:32.666Z [info]: MongoDB connected successfully
+2025-04-10T06:38:50.139Z [info]: AuthService running on port 3001
+2025-04-10T06:38:50.861Z [info]: MongoDB connected successfully
+2025-04-10T06:39:00.740Z [info]: OTP stored for mobile: 1234567890
+2025-04-10T06:39:00.741Z [info]: OTP 123456 generated for mobile: 1234567890 (SMS pending)
+2025-04-10T06:39:06.027Z [error]: Verify OTP error: Request failed with status code 404
+2025-04-10T06:49:54.047Z [info]: AuthService running on port 3001
+2025-04-10T06:49:54.586Z [info]: MongoDB connected successfully
+2025-04-10T06:50:31.425Z [info]: OTP stored for mobile: 1234567890
+2025-04-10T06:50:31.426Z [info]: OTP 123456 generated for mobile: 1234567890 (SMS pending)
+2025-04-10T06:50:38.711Z [error]: Verify OTP error: Request failed with status code 404
+2025-04-10T07:01:37.407Z [info]: AuthService running on port 3001
+2025-04-10T07:01:38.134Z [info]: MongoDB connected successfully
+2025-04-10T07:01:44.813Z [info]: AuthService running on port 3001
+2025-04-10T07:01:45.426Z [info]: MongoDB connected successfully
+2025-04-10T07:01:58.473Z [info]: OTP stored for mobile: 1234567890
+2025-04-10T07:01:58.474Z [info]: OTP 123456 generated for mobile: 1234567890 (SMS pending)
+2025-04-10T07:02:02.729Z [info]: User 1234567890-1744268522666 authenticated successfully
+2025-04-10T07:09:30.019Z [info]: OTP stored for mobile: 1234567890
+2025-04-10T07:09:30.024Z [info]: New OTP 123456 resent for mobile: 1234567890 (SMS pending)
+2025-04-10T07:12:53.050Z [info]: AuthService running on port 3001
+2025-04-10T07:12:53.706Z [info]: MongoDB connected successfully
+2025-04-10T07:13:46.177Z [info]: OTP stored for mobile: 1234567890
+2025-04-10T07:13:46.179Z [info]: OTP 123456 generated for mobile: 1234567890 (SMS pending)
+2025-04-10T07:13:56.357Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:13:58.857Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:00.636Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:02.167Z [error]: Verify OTP error: Too many failed attempts
+2025-04-10T07:14:04.733Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:11.891Z [info]: OTP stored for mobile: 1234567890
+2025-04-10T07:14:11.892Z [info]: New OTP 123456 resent for mobile: 1234567890 (SMS pending)
+2025-04-10T07:14:20.168Z [info]: User 1234567890-1744269260119 authenticated successfully
+2025-04-10T07:14:29.165Z [info]: OTP stored for mobile: 1234567890
+2025-04-10T07:14:29.166Z [info]: OTP 123456 generated for mobile: 1234567890 (SMS pending)
+2025-04-10T07:14:35.221Z [info]: User 1234567890-1744269275177 authenticated successfully
+2025-04-10T07:14:40.438Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:44.909Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:46.466Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:47.843Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:49.975Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:14:51.315Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:15:01.038Z [error]: Verify OTP error: Invalid or expired OTP
+2025-04-10T07:15:54.752Z [info]: OTP stored for mobile: 1234567890
+2025-04-10T07:15:54.753Z [info]: OTP 123456 generated for mobile: 1234567890 (SMS pending)
+2025-04-10T07:16:00.459Z [info]: User 1234567890-1744269360419 authenticated successfully
+2025-04-10T07:16:05.967Z [info]: OTP stored for mobile: 1234567890
+2025-04-10T07:16:05.967Z [info]: New OTP 123456 resent for mobile: 1234567890 (SMS pending)
+2025-04-10T09:38:00.197Z [info]: AuthService running on port 3001
+2025-04-10T09:38:00.921Z [info]: MongoDB connected successfully
+2025-04-10T10:28:01.452Z [info]: AuthService running on port 3001
+2025-04-10T10:28:02.647Z [info]: MongoDB connected successfully
+2025-04-10T10:56:51.825Z [info]: AuthService running on port 3001
+2025-04-10T13:38:22.708Z [info]: AuthService running on port 3001
+2025-04-10T13:38:23.931Z [info]: MongoDB connected successfully
+2025-04-10T13:38:52.748Z [error]: RabbitMQ connection error: read ECONNRESET
+2025-04-10T13:39:20.062Z [info]: AuthService running on port 3001
+2025-04-10T13:39:21.226Z [info]: MongoDB connected successfully
+2025-04-10T13:39:50.088Z [error]: RabbitMQ connection error: read ECONNRESET
+2025-04-10T13:40:10.082Z [info]: AuthService running on port 3001
+2025-04-10T13:40:11.167Z [info]: MongoDB connected successfully
+2025-04-10T13:40:40.174Z [error]: RabbitMQ connection error: read ECONNRESET
+2025-04-10T13:53:50.704Z [info]: AuthService running on port 3001
+2025-04-10T13:53:51.572Z [info]: AuthService connected to RabbitMQ for notifications
+2025-04-10T13:53:51.946Z [info]: MongoDB connected successfully
+2025-04-10T14:22:11.089Z [info]: AuthService running on port 3001
+2025-04-10T14:22:11.105Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:22:12.532Z [info]: MongoDB connected successfully
+2025-04-10T14:22:16.120Z [error]: RabbitMQ connection attempt 2 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:22:21.125Z [error]: RabbitMQ connection attempt 3 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:22:26.139Z [error]: RabbitMQ connection attempt 4 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:22:31.153Z [error]: RabbitMQ connection attempt 5 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:22:31.154Z [error]: Max retries reached. RabbitMQ connection failed.
+2025-04-10T14:22:31.155Z [error]: Initial RabbitMQ connection failed, will retry on demand:
+2025-04-10T14:23:08.879Z [info]: AuthService running on port 3001
+2025-04-10T14:23:08.895Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:23:13.917Z [error]: RabbitMQ connection attempt 2 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:23:15.208Z [info]: MongoDB connected successfully
+2025-04-10T14:23:18.933Z [error]: RabbitMQ connection attempt 3 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:23:23.944Z [error]: RabbitMQ connection attempt 4 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:23:28.962Z [error]: RabbitMQ connection attempt 5 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:23:28.964Z [error]: Max retries reached. RabbitMQ connection failed.
+2025-04-10T14:23:28.966Z [error]: Initial RabbitMQ connection failed, will retry on demand:
+2025-04-10T14:38:33.600Z [info]: AuthService running on port 3001
+2025-04-10T14:38:33.617Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:38:34.866Z [info]: MongoDB connected successfully
+2025-04-10T14:39:18.816Z [info]: Attempting RabbitMQ connection to: amqp://localhost:5672, Attempt 1
+2025-04-10T14:39:18.977Z [info]: AuthService running on port 3001
+2025-04-10T14:39:18.993Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:39:20.131Z [info]: MongoDB connected successfully
+2025-04-10T14:39:23.996Z [info]: Attempting RabbitMQ connection to: amqp://localhost:5672, Attempt 2
+2025-04-10T14:39:24.001Z [error]: RabbitMQ connection attempt 2 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:39:29.009Z [info]: Attempting RabbitMQ connection to: amqp://localhost:5672, Attempt 3
+2025-04-10T14:39:29.015Z [error]: RabbitMQ connection attempt 3 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:39:34.032Z [info]: Attempting RabbitMQ connection to: amqp://localhost:5672, Attempt 4
+2025-04-10T14:39:34.036Z [error]: RabbitMQ connection attempt 4 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:40:27.921Z [info]: Attempting RabbitMQ connection to: amqp://localhost:5672, Attempt 1
+2025-04-10T14:40:28.070Z [info]: AuthService running on port 3001
+2025-04-10T14:40:28.088Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:40:29.208Z [info]: MongoDB connected successfully
+2025-04-10T14:41:23.453Z [info]: Attempting RabbitMQ connection to: amqp://localhost:5672, Attempt 1
+2025-04-10T14:41:23.591Z [info]: AuthService running on port 3001
+2025-04-10T14:41:23.616Z [error]: RabbitMQ connection attempt 1 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:41:24.663Z [info]: MongoDB connected successfully
+2025-04-10T14:41:28.624Z [info]: Attempting RabbitMQ connection to: amqp://localhost:5672, Attempt 2
+2025-04-10T14:41:28.628Z [error]: RabbitMQ connection attempt 2 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:41:33.633Z [info]: Attempting RabbitMQ connection to: amqp://localhost:5672, Attempt 3
+2025-04-10T14:41:33.637Z [error]: RabbitMQ connection attempt 3 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:41:38.647Z [info]: Attempting RabbitMQ connection to: amqp://localhost:5672, Attempt 4
+2025-04-10T14:41:38.650Z [error]: RabbitMQ connection attempt 4 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:41:43.660Z [info]: Attempting RabbitMQ connection to: amqp://localhost:5672, Attempt 5
+2025-04-10T14:41:43.664Z [error]: RabbitMQ connection attempt 5 failed: connect ECONNREFUSED ::1:5672
+2025-04-10T14:41:43.665Z [error]: Max retries reached. RabbitMQ connection failed.
+2025-04-10T14:41:43.666Z [error]: Initial RabbitMQ connection failed, will retry on demand:
