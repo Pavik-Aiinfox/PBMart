@@ -8,7 +8,7 @@
     ],
     "routes": [
       {
-        "src": "/api/auth/(.*)",
+        "src": "/api/auth/signup",
         "dest": "/Buyer Service/index.js"
       }
     ],
