@@ -50,3 +50,4 @@
 2025-04-10T14:41:43.664Z [error]: RabbitMQ connection attempt 5 failed: connect ECONNREFUSED ::1:5672
 2025-04-10T14:41:43.665Z [error]: Max retries reached. RabbitMQ connection failed.
 2025-04-10T14:41:43.666Z [error]: Initial RabbitMQ connection failed, will retry on demand:
+2025-04-11T13:30:46.228Z [error]: RabbitMQ connection error: connect ECONNREFUSED ::1:5672
