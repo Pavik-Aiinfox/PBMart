@@ -45,7 +45,7 @@ Usage
 - This uses nodemon to automatically restart on file changes.
 2. Start the service in production mode:
   ```bash
-  npm start
+     npm start
 3. The service will be available at http://localhost:3004 by default.
 
 API Endpoints
