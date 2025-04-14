@@ -2,6 +2,13 @@ const Joi = require('joi');
 const logger = require('../config/logger');
 const { errorResponse } = require('../utils/response');
 
+
+const registerSchema = Joi.object({
+  mobile: Joi.string().pattern(/^\d{10}$/).required().messages({
+    'string.pattern.base': 'Mobile number must be 10 digits',
+    'string.empty': 'Mobile number is required'
+  })
+});
 const requestOTPSchema = Joi.object({
   mobile: Joi.string().pattern(/^\d{10}$/).required().messages({
     'string.pattern.base': 'Mobile number must be 10 digits',
@@ -33,5 +40,6 @@ const validate = (schema) => {
 
 module.exports = {
   validateRequestOTP: validate(requestOTPSchema),
-  validateVerifyOTP: validate(verifyOTPSchema)
+  validateVerifyOTP: validate(verifyOTPSchema),
+  validateRegister: validate(registerSchema)
 };

@@ -2,6 +2,41 @@ const AuthService = require('../services/authService');
 const { successResponse, errorResponse } = require('../utils/response');
 const { STATUS_CODES, MESSAGES } = require('../utils/constants');
 const logger = require('../config/logger');
+const jwt = require('jsonwebtoken');
+const { JWT_EXPIRY, USER_ROLE } = require('../utils/constants');
+
+
+const register = async (req, res) => {
+  try {
+    const { mobile } = req.body;
+
+    // Validate mobile number
+    await AuthService.validateMobile(mobile);
+
+    // Generate userId and JWT token
+    const userId = `${mobile}-${Date.now()}`;
+    const token = jwt.sign(
+      { userId, role: USER_ROLE },
+      process.env.JWT_SECRET,
+      { expiresIn: JWT_EXPIRY }
+    );
+
+    // Log success
+    logger.info(`User ${userId} registered successfully`);
+
+    // Return success response
+    successResponse(res, 
+      { userId, token }, 
+      MESSAGES.SIGNUP_SUCCESS,
+    );
+  } catch (error) {
+    logger.error(`register error: ${error.message}`);
+    const status = {
+      ['Mobile number must be 10 digits']: STATUS_CODES.BAD_REQUEST
+    }[error.message] || STATUS_CODES.SERVER_ERROR;
+    errorResponse(res, error.message, status);
+  }
+};
 
 const requestOTP = async (req, res) => {
   try {
@@ -48,4 +83,4 @@ const resendOTP = async (req, res) => {
   }
 };
 
-module.exports = { requestOTP, verifyOTP, resendOTP };
+module.exports = { requestOTP, verifyOTP, resendOTP, register };

@@ -145,3 +145,24 @@
 2025-04-14T04:33:57.142Z [info]: AuthService running on port 3001
 2025-04-14T04:34:36.103Z [info]: AuthService running on port 3001
 2025-04-14T05:31:51.079Z [info]: AuthService running on port 3001
+2025-04-14T07:09:26.808Z [info]: AuthService running on port 3001
+2025-04-14T07:09:27.669Z [info]: MongoDB connected successfully
+2025-04-14T07:10:19.101Z [info]: AuthService running on port 3001
+2025-04-14T07:10:19.799Z [info]: MongoDB connected successfully
+2025-04-14T07:13:30.779Z [info]: AuthService running on port 3001
+2025-04-14T07:13:31.598Z [info]: MongoDB connected successfully
+2025-04-14T07:20:53.146Z [info]: AuthService running on port 3001
+2025-04-14T07:20:53.916Z [info]: MongoDB connected successfully
+2025-04-14T07:21:18.833Z [error]: Signup error: jwt is not defined
+2025-04-14T07:21:31.379Z [info]: AuthService running on port 3001
+2025-04-14T07:21:32.055Z [info]: MongoDB connected successfully
+2025-04-14T07:21:35.989Z [error]: Signup error: jwt is not defined
+2025-04-14T07:22:21.618Z [info]: AuthService running on port 3001
+2025-04-14T07:22:22.466Z [info]: MongoDB connected successfully
+2025-04-14T07:22:32.617Z [error]: register error: jwt is not defined
+2025-04-14T07:23:49.818Z [info]: AuthService running on port 3001
+2025-04-14T07:23:50.655Z [info]: MongoDB connected successfully
+2025-04-14T07:23:55.151Z [info]: AuthService running on port 3001
+2025-04-14T07:23:55.847Z [info]: MongoDB connected successfully
+2025-04-14T07:23:59.617Z [info]: User 0987654321-1744615439614 registered successfully
+2025-04-14T07:23:59.618Z [error]: register error: AuthService.maskMobile is not a function
