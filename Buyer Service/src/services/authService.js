@@ -29,26 +29,24 @@ class AuthService {
       turnover,
       bankDetails: { accountNumber, ifscCode, bankName, bankPlace }
     });
+
     const token = jwt.sign(
-        { buyerId: buyer._id,
-            fullName: buyer.fullName,
-            mobile: buyer.mobile,
-            email: buyer.email,
-         },
-        process.env.JWT_SECRET,
-        { expiresIn: process.env.JWT_EXPIRES_IN }
-      );
+      {
+        buyerId: buyer._id,
+        fullName: buyer.fullName,
+        mobile: buyer.mobile,
+        email: buyer.email,
+      },
+      process.env.JWT_SECRET,
+      { expiresIn: process.env.JWT_EXPIRES_IN }
+    );
 
     await buyer.save();
     logger.info(`New buyer registered: ${buyer._id}`);
     return { buyerId: buyer._id, token };
   }
 
-  static async signIn({ mobile, otp }) {
-    if (otp !== FIXED_OTP) {
-      throw new Error(MESSAGES.INVALID_OTP);
-    }
-
+  static async signIn({ mobile }) {
     const buyer = await Buyer.findOne({ mobile });
     if (!buyer) {
       throw new Error(MESSAGES.BUYER_NOT_FOUND);
@@ -62,6 +60,20 @@ class AuthService {
 
     logger.info(`Successful signin for buyer: ${buyer._id}`);
     return { buyerId: buyer._id, token };
+  }
+
+  static async checkUserExists(mobile) {
+    const buyer = await Buyer.findOne({ mobile });
+    logger.info(`Checked user existence for mobile: ${mobile}, exists: ${!!buyer}`);
+    return !!buyer;
+  }
+
+  static async sendOTP(mobile, otp) {
+    logger.info(`Sending OTP ${otp} to ${mobile}`);
+    // Integrate with SMS service or log OTP for testing
+    console.log(`Sending OTP ${otp} to ${mobile}`);
+    // Example: await smsService.send(mobile, `Your OTP is ${otp}`);
+    return true;
   }
 }
 

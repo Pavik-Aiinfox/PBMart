@@ -1,18 +1,9 @@
-const { STATUS_CODES } = require('./constants');
-
-const successResponse = (res, data, message = 'Success') => {
-  return res.status(STATUS_CODES.OK).json({
-    success: true,
-    message,
-    data
-  });
+const successResponse = (res, data, message) => {
+  res.status(200).json({ success: true, data, message });
 };
 
-const errorResponse = (res, message = 'Error', status = STATUS_CODES.BAD_REQUEST) => {
-  return res.status(status).json({
-    success: false,
-    message
-  });
+const errorResponse = (res, message, status = 400) => {
+  res.status(status).json({ success: false, message });
 };
 
 module.exports = { successResponse, errorResponse };

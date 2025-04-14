@@ -36,3 +36,5 @@
 {"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-11T08:03:05.104Z"}
 {"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-11T08:03:39.211Z"}
 {"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-11T08:03:39.866Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-11T14:06:04.193Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-11T14:06:04.966Z"}

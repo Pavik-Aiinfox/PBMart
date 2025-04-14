@@ -142,3 +142,6 @@
 2025-04-10T14:41:43.665Z [error]: Max retries reached. RabbitMQ connection failed.
 2025-04-10T14:41:43.666Z [error]: Initial RabbitMQ connection failed, will retry on demand:
 2025-04-11T13:30:46.211Z [info]: AuthService running on port 3001
+2025-04-14T04:33:57.142Z [info]: AuthService running on port 3001
+2025-04-14T04:34:36.103Z [info]: AuthService running on port 3001
+2025-04-14T05:31:51.079Z [info]: AuthService running on port 3001
