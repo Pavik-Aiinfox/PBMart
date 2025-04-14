@@ -12,21 +12,21 @@ const {
 } = require('../utils/constants');
 
 // RabbitMQ connection for notifications
-// let notificationChannel;
+let notificationChannel;
 
-// async function connectRabbitMQ() {
-//   try {
-//     const connection = await amqp.connect(process.env.RABBITMQ_URL || 'amqp://localhost:5672');
-//     notificationChannel = await connection.createChannel();
-//     await notificationChannel.assertQueue('notification_queue', { durable: true });
-//     logger.info('AuthService connected to RabbitMQ for notifications');
-//   } catch (error) {
-//     logger.error(`RabbitMQ connection error: ${error.message}`);
-//     throw error;
-//   }
-// }
+async function connectRabbitMQ() {
+  try {
+    const connection = await amqp.connect(process.env.RABBITMQ_URL || 'amqp://localhost:5672');
+    notificationChannel = await connection.createChannel();
+    await notificationChannel.assertQueue('notification_queue', { durable: true });
+    logger.info('AuthService connected to RabbitMQ for notifications');
+  } catch (error) {
+    logger.error(`RabbitMQ connection error: ${error.message}`);
+    throw error;
+  }
+}
 
-// connectRabbitMQ();
+connectRabbitMQ();
 
 // Mask mobile number
 function maskMobile(mobile) {
