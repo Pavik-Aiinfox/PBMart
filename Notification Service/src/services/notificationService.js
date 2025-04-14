@@ -5,17 +5,17 @@ const Notification = require('../models/notificationModel');
 let channel;
 
 class NotificationService {
-  static async connectRabbitMQ() {
-    try {
-      const connection = await amqp.connect(process.env.RABBITMQ_URL);
-      channel = await connection.createChannel();
-      await channel.assertQueue('notification_queue', { durable: true });
-      logger.info('Notification Service connected to RabbitMQ');
-    } catch (error) {
-      logger.error(`RabbitMQ connection error: ${error.message}`);
-      throw error;
-    }
-  }
+  // static async connectRabbitMQ() {
+  //   try {
+  //     const connection = await amqp.connect(process.env.RABBITMQ_URL);
+  //     channel = await connection.createChannel();
+  //     await channel.assertQueue('notification_queue', { durable: true });
+  //     logger.info('Notification Service connected to RabbitMQ');
+  //   } catch (error) {
+  //     logger.error(`RabbitMQ connection error: ${error.message}`);
+  //     throw error;
+  //   }
+  // }
 
   static async sendSMS(mobile, otp) {
     const message = `Your OTP is ${otp}. Valid 5 mins.`;
@@ -29,7 +29,7 @@ class NotificationService {
   }
 
   static async startListening() {
-    await this.connectRabbitMQ();
+    // await this.connectRabbitMQ();
 
     channel.consume('notification_queue', async (msg) => {
       if (msg !== null) {

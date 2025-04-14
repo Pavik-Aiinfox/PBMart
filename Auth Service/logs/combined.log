@@ -166,3 +166,6 @@
 2025-04-14T07:23:55.847Z [info]: MongoDB connected successfully
 2025-04-14T07:23:59.617Z [info]: User 0987654321-1744615439614 registered successfully
 2025-04-14T07:23:59.618Z [error]: register error: AuthService.maskMobile is not a function
+2025-04-14T07:24:19.813Z [info]: AuthService running on port 3001
+2025-04-14T07:24:20.744Z [info]: MongoDB connected successfully
+2025-04-14T07:24:22.986Z [info]: User 0987654321-1744615462984 registered successfully
