@@ -38,3 +38,39 @@
 {"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-11T08:03:39.866Z"}
 {"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-11T14:06:04.193Z"}
 {"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-11T14:06:04.966Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T07:10:45.008Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T07:10:45.758Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T07:11:54.899Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T07:11:55.949Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T07:20:10.503Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T07:20:11.211Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T08:57:30.960Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T08:58:41.361Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T08:58:42.117Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T08:59:30.365Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T08:59:30.976Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T09:02:16.669Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T09:02:17.341Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T09:02:26.171Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T09:02:43.466Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T09:03:11.292Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T09:04:02.281Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T09:04:31.632Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T09:04:32.321Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T09:26:55.857Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T09:26:56.476Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T09:51:09.669Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T09:51:10.410Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T09:55:48.584Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T09:55:49.252Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T10:07:03.637Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T10:07:04.890Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T10:53:57.105Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T10:53:57.883Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T10:54:05.844Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T10:54:06.408Z"}
+{"level":"error","message":"Internal Server Error: Unexpected token / in JSON at position 174","stack":"SyntaxError: Unexpected token / in JSON at position 174\n    at JSON.parse (<anonymous>)\n    at parse (D:\\web_dev\\PBMart-Backend\\Product Service\\node_modules\\body-parser\\lib\\types\\json.js:77:19)\n    at D:\\web_dev\\PBMart-Backend\\Product Service\\node_modules\\body-parser\\lib\\read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n    at invokeCallback (D:\\web_dev\\PBMart-Backend\\Product Service\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\web_dev\\PBMart-Backend\\Product Service\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\web_dev\\PBMart-Backend\\Product Service\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:514:28)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2025-04-15T10:54:30.024Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T10:54:55.984Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T10:54:56.589Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T11:14:11.283Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T11:14:12.171Z"}

@@ -4,43 +4,19 @@ const logger = require('./src/config/logger');
 const productRoutes = require('./src/routes/productRoutes');
 const { connectDB } = require('./src/config/db');
 const cors = require('cors');
+
+const app = express();
+
+// Middleware to parse JSON
+app.use(express.json({ limit: '100mb' }));
+app.use(express.urlencoded({ limit: '100mb', extended: true }));
+
+// CORS configuration
 const corsOptions = {
   origin: '*',
   methods: 'GET, POST, PUT, DELETE, PATCH, HEAD',
   credentials: true,
 };
-const multer = require('multer');
-
-const app = express();
-
-// Middleware to parse JSON (for text fields)
-app.use(express.json());
-
-// Middleware for file uploads
-const storage = multer.diskStorage({
-  destination: './uploads/',
-  filename: (req, file, cb) => {
-    cb(null, `${Date.now()}-${file.originalname}`);
-  },
-});
-const upload = multer({ storage: storage });
-
-// Custom middleware to handle multipart/form-data and combine with JSON
-app.use((req, res, next) => {
-  if (req.is('multipart/form-data')) {
-    // Parse form-data with Multer for files
-    upload.fields([{ name: 'images', maxCount: 10 }])(req, res, (err) => {
-      if (err) {
-        return next(err);
-      }
-      // Allow other fields to pass through to req.body
-      next();
-    });
-  } else {
-    next(); // Proceed for JSON requests
-  }
-});
-
 app.use(cors(corsOptions));
 
 // Connect to MongoDB
@@ -49,13 +25,12 @@ connectDB();
 // Register routes
 app.use('/api/products', productRoutes);
 
-// Enhanced error handling middleware
+// Error handling
 app.use((err, req, res, next) => {
   logger.error('Internal Server Error:', {
     message: err.message,
     stack: err.stack,
     requestBody: req.body,
-    files: req.files,
   });
   res.status(500).json({ success: false, message: 'Internal Server Error' });
 });

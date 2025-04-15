@@ -53,7 +53,11 @@ class AuthService {
     }
 
     const token = jwt.sign(
-      { buyerId: buyer._id },
+      { buyerId: buyer._id,
+        fullName: buyer.fullName,
+        mobile: buyer.mobile,
+        email: buyer.email,
+       },
       process.env.JWT_SECRET,
       { expiresIn: process.env.JWT_EXPIRES_IN }
     );

@@ -3,6 +3,7 @@ const router = express.Router();
 const Product = require('../models/product');
 const { validateProduct, validateBulkUpload } = require('../middleware/validate');
 const { authenticateJWT, authorizeSeller } = require('../middleware/authMiddleware');
+const fs = require('fs'); // Required for bulk upload (CSV handling)
 
 router.post('/', 
   process.env.NODE_ENV === 'development' ? (req, res, next) => next() : authenticateJWT,
@@ -10,19 +11,16 @@ router.post('/',
   validateProduct,
   async (req, res) => {
   try {
-    // Debug logs
-    console.log('Request Body:', req.body);
-    console.log('Request Files:', req.files);
-
-    const { name, description, price, stock, sellerId, categoryId } = req.body;
+    console.log('Raw req.body:', req.body); // Add this line
+    const { name, description, price, stock, sellerId, categoryId, images } = req.body;
     if (!name || !description || !price || !stock || !sellerId || !categoryId) {
       throw new Error('Missing required fields');
     }
 
-    // Handle images
-    const imagePaths = req.files && req.files['images'] 
-      ? req.files['images'].map(file => `/uploads/${file.filename}`)
-      : [];
+    const imageBase64 = images || [];
+    if (!Array.isArray(imageBase64)) {
+      throw new Error('Images must be an array of base64 strings');
+    }
 
     const product = new Product({
       name,
@@ -31,7 +29,7 @@ router.post('/',
       stock: Number(stock),
       sellerId: sellerId || 'test-seller',
       categoryId,
-      images: imagePaths,
+      images: imageBase64,
     });
     await product.save();
     res.status(201).json({ success: true, data: product });
@@ -124,6 +122,7 @@ router.post('/bulk',
           stock: Number(p.stock),
           sellerId: p.sellerId || 'test-seller',
           status: 'active',
+          images: p.images ? p.images.split(',').map(img => img.trim()) : [] // Assuming CSV has image paths or base64
         }));
         await Product.insertMany(validProducts);
         res.json({ success: true, message: 'Bulk upload successful', count: validProducts.length });
