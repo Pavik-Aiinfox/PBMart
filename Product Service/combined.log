@@ -74,3 +74,9 @@
 {"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T10:54:56.589Z"}
 {"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T11:14:11.283Z"}
 {"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T11:14:12.171Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T11:22:04.383Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T11:22:04.995Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T11:29:27.229Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T11:29:27.888Z"}
+{"level":"info","message":"Product Service running on port 3004","timestamp":"2025-04-15T11:30:23.328Z"}
+{"level":"info","message":"Connected to MongoDB Atlas","timestamp":"2025-04-15T11:30:23.839Z"}

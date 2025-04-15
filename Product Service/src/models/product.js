@@ -6,18 +6,27 @@ const productSchema = new mongoose.Schema({
   name: { type: String, required: true },
   description: { type: String, required: true },
   price: { type: Number, required: true, min: 0 },
-  images: [String], // Can store base64 strings or file paths
+  images: [String],
   stock: { type: Number, required: true, min: 0 },
   sellerId: { type: String, required: true },
   categoryId: { type: String, required: true },
   status: { type: String, enum: ['active', 'inactive', 'outofstock'], default: 'active' },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },
+}, {
+  toJSON: {
+    transform: (doc, ret) => {
+      ret.id = ret.id; // Keep custom UUID id
+      delete ret._id; // Remove MongoDB _id
+      delete ret.__v; // Remove version key
+      return ret;
+    },
+  },
 });
 
 // Auto-update updatedAt on save or update
 productSchema.pre('findOneAndUpdate', function(next) {
-  this.updatedAt = Date.now();
+  this.set({ updatedAt: Date.now() }); // Use set() for findOneAndUpdate
   next();
 });
 

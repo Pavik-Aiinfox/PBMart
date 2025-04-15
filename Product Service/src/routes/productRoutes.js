@@ -10,33 +10,50 @@ router.post('/',
   process.env.NODE_ENV === 'development' ? (req, res, next) => next() : authorizeSeller,
   validateProduct,
   async (req, res) => {
-  try {
-    console.log('Raw req.body:', req.body); // Add this line
-    const { name, description, price, stock, sellerId, categoryId, images } = req.body;
-    if (!name || !description || !price || !stock || !sellerId || !categoryId) {
-      throw new Error('Missing required fields');
-    }
+    try {
+      console.log('Raw req.body:', req.body);
+      const { name, description, price, stock, sellerId, categoryId, images } = req.body;
+      if (!name || !description || !price || !stock || !sellerId || !categoryId) {
+        throw new Error('Missing required fields');
+      }
 
-    const imageBase64 = images || [];
-    if (!Array.isArray(imageBase64)) {
-      throw new Error('Images must be an array of base64 strings');
-    }
+      const imageBase64 = images || [];
+      if (!Array.isArray(imageBase64)) {
+        throw new Error('Images must be an array of base64 strings');
+      }
 
-    const product = new Product({
-      name,
-      description,
-      price: Number(price),
-      stock: Number(stock),
-      sellerId: sellerId || 'test-seller',
-      categoryId,
-      images: imageBase64,
-    });
-    await product.save();
-    res.status(201).json({ success: true, data: product });
-  } catch (error) {
-    res.status(400).json({ success: false, message: error.message });
+      const product = new Product({
+        name,
+        description,
+        price: Number(price),
+        stock: Number(stock),
+        sellerId: sellerId || 'test-seller',
+        categoryId,
+        images: imageBase64,
+      });
+      await product.save();
+
+      // Transform the response to include only desired fields
+      const responseProduct = {
+        id: product.id, // Assuming 'id' is the UUID field
+        name: product.name,
+        description: product.description,
+        price: product.price,
+        stock: product.stock,
+        sellerId: product.sellerId,
+        categoryId: product.categoryId,
+        images: product.images,
+        status: product.status,
+        createdAt: product.createdAt,
+        updatedAt: product.updatedAt,
+      };
+
+      res.status(201).json({ success: true, data: responseProduct });
+    } catch (error) {
+      res.status(400).json({ success: false, message: error.message });
+    }
   }
-});
+);
 
 router.put('/:id', 
   process.env.NODE_ENV === 'development' ? (req, res, next) => next() : authenticateJWT,
