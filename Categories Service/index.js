@@ -4,6 +4,8 @@ const logger = require('./src/config/logger');
 const categoryRoutes = require('./src/routes/categoryRoutes');
 const { connectDB } = require('./src/config/db');
 const cors = require('cors');
+const bodyParser = require('body-parser');
+
 const corsOptions = {
   origin: '*',
   methods: 'GET, POST, PUT, DELETE, PATCH, HEAD',
@@ -13,8 +15,11 @@ const corsOptions = {
 const app = express();
 
 // Middleware
-app.use(express.json());
 app.use(cors(corsOptions));
+
+// Increase payload size limit
+app.use(bodyParser.json({ limit: '100mb' }));
+app.use(bodyParser.urlencoded({ limit: '100mb', extended: true }));
 
 // Connect to MongoDB
 connectDB();
@@ -29,7 +34,7 @@ app.use((err, req, res, next) => {
     stack: err.stack,
     requestBody: req.body,
   });
-  res.status(500).json({ success: false, message: 'Internal Server Error' });
+  res.status(500).json({ success: false, message: 'Internal Server Error', error: err.message });
 });
 
 const PORT = process.env.PORT || 3005;

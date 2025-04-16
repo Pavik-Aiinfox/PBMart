@@ -1,0 +1,64 @@
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:21:18.880Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:21:18.892Z"}
+{"level":"error","message":"Signup error: Seller validation failed: bank_details.account_number: Path `bank_details.account_number` (`1f72f862dd9fabf5df2ebe5050399cec:13073c67c25f5a14f51ddf5e5faf4e97`) is longer than the maximum allowed length (50).","timestamp":"2025-04-16T09:28:20.472Z"}
+{"level":"error","message":"Error: Seller validation failed: bank_details.account_number: Path `bank_details.account_number` (`1f72f862dd9fabf5df2ebe5050399cec:13073c67c25f5a14f51ddf5e5faf4e97`) is longer than the maximum allowed length (50)., Stack: ValidationError: Seller validation failed: bank_details.account_number: Path `bank_details.account_number` (`1f72f862dd9fabf5df2ebe5050399cec:13073c67c25f5a14f51ddf5e5faf4e97`) is longer than the maximum allowed length (50).\n    at Document.invalidate (D:\\web_dev\\PBMart-Backend\\Seller Service\\node_modules\\mongoose\\lib\\document.js:3351:32)\n    at D:\\web_dev\\PBMart-Backend\\Seller Service\\node_modules\\mongoose\\lib\\document.js:3112:17\n    at D:\\web_dev\\PBMart-Backend\\Seller Service\\node_modules\\mongoose\\lib\\schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-04-16T09:28:20.623Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:33:14.850Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:33:14.881Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:33:41.696Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:33:41.710Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:35:03.281Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:35:03.286Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:35:16.477Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:35:16.483Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:35:46.003Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:35:46.010Z"}
+{"level":"info","message":"Verification token generated for phone: +919876543210, token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZmY3OWY4Y2ZjN2IxODA1ZWQxM2MwMyIsInBob25lX251bWJlciI6Iis5MTk4NzY1NDMyMTAiLCJpYXQiOjE3NDQ3OTYxNTIsImV4cCI6MTc0NDg4MjU1Mn0.5s3hkybJZ_Gan8R-ucubkudGZNmfStgXU-Ag9MWFbQM","timestamp":"2025-04-16T09:35:52.404Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:44:08.266Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:44:08.273Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:45:10.200Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:45:10.207Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:45:20.614Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:45:20.633Z"}
+{"level":"warn","message":"Validation error during signup: \"password\" length must be at least 8 characters long","timestamp":"2025-04-16T09:46:09.177Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:46:35.806Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:46:35.814Z"}
+{"level":"warn","message":"Validation error during signup: \"password\" with value \"123456\" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])/","timestamp":"2025-04-16T09:46:45.273Z"}
+{"level":"warn","message":"Validation error during signup: \"password\" with value \"seP123\" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])/","timestamp":"2025-04-16T09:47:06.771Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:47:59.974Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:47:59.980Z"}
+{"level":"info","message":"Verification token generated for phone: +919876543211","timestamp":"2025-04-16T09:50:20.767Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T09:50:52.256Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T09:50:52.262Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T10:01:05.824Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T10:01:05.831Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T10:01:18.007Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T10:01:18.013Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T10:01:22.970Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T10:01:22.977Z"}
+{"level":"warn","message":"Signup attempt with existing email or phone: Kumesh@example.com, +919876543211, +919876543212","timestamp":"2025-04-16T10:02:16.675Z"}
+{"level":"info","message":"Verification token generated for phone: +919876543212","timestamp":"2025-04-16T10:02:37.207Z"}
+{"level":"warn","message":"OTP request for unverified account: +919876543212","timestamp":"2025-04-16T10:02:56.637Z"}
+{"level":"warn","message":"OTP request for unverified account: +919876543212","timestamp":"2025-04-16T10:06:36.124Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T10:09:05.859Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T10:09:05.907Z"}
+{"level":"warn","message":"OTP request for unverified account: +919876543212","timestamp":"2025-04-16T10:09:07.530Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T10:12:43.623Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T10:12:43.628Z"}
+{"level":"warn","message":"OTP request for unverified account: +919876543212","timestamp":"2025-04-16T10:13:45.629Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T10:14:34.895Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T10:14:34.904Z"}
+{"level":"warn","message":"OTP request for unverified account: +919876543212","timestamp":"2025-04-16T10:14:56.947Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T10:21:27.935Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T10:21:27.944Z"}
+{"level":"info","message":"OTP generated for phone: +919876543212, OTP: 123456","timestamp":"2025-04-16T10:21:35.875Z"}
+{"level":"warn","message":"Signin attempt on unverified account: +919876543212","timestamp":"2025-04-16T10:23:12.031Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T10:24:16.105Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T10:24:16.111Z"}
+{"level":"info","message":"Seller signed in successfully: +919876543212","timestamp":"2025-04-16T10:24:21.670Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T10:25:44.470Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T10:25:44.520Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T10:33:22.074Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T10:33:22.081Z"}
+{"level":"info","message":"Phone number verified successfully: +919876543212","timestamp":"2025-04-16T10:36:51.747Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-04-16T12:11:13.887Z"}
+{"level":"info","message":"Server running on port 3006","timestamp":"2025-04-16T12:11:13.902Z"}

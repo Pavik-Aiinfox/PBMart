@@ -1,340 +1,74 @@
-{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-11T10:14:01.555Z"}
-{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-11T10:14:02.457Z"}
-{"level":"info","message":"Connected to MongoDB for seeding","timestamp":"2025-04-11T10:14:19.244Z"}
-{"level":"info","message":"Cleared existing categories","timestamp":"2025-04-11T10:14:19.617Z"}
-{"id":"67f8eb7bffb14dc561cd87bd","level":"info","message":"Seeded parent category","name":"Agriculture and Food Industry","timestamp":"2025-04-11T10:14:19.690Z"}
-{"id":"67f8eb7bffb14dc561cd87bf","level":"info","message":"Seeded subcategory","name":"Agricultural Equipment","parentId":"67f8eb7bffb14dc561cd87bd","timestamp":"2025-04-11T10:14:19.801Z"}
-{"id":"67f8eb7bffb14dc561cd87c1","level":"info","message":"Seeded subcategory","name":"Food Grains","parentId":"67f8eb7bffb14dc561cd87bd","timestamp":"2025-04-11T10:14:19.920Z"}
-{"id":"67f8eb7bffb14dc561cd87c3","level":"info","message":"Seeded subcategory","name":"Dairy Products","parentId":"67f8eb7bffb14dc561cd87bd","timestamp":"2025-04-11T10:14:19.966Z"}
-{"id":"67f8eb7bffb14dc561cd87c5","level":"info","message":"Seeded subcategory","name":"Processed Foods","parentId":"67f8eb7bffb14dc561cd87bd","timestamp":"2025-04-11T10:14:20.046Z"}
-{"id":"67f8eb7cffb14dc561cd87c7","level":"info","message":"Seeded parent category","name":"Apparel and Fashion","timestamp":"2025-04-11T10:14:20.135Z"}
-{"id":"67f8eb7cffb14dc561cd87c9","level":"info","message":"Seeded subcategory","name":"Men's Clothing","parentId":"67f8eb7cffb14dc561cd87c7","timestamp":"2025-04-11T10:14:20.234Z"}
-{"id":"67f8eb7cffb14dc561cd87cb","level":"info","message":"Seeded subcategory","name":"Women's Clothing","parentId":"67f8eb7cffb14dc561cd87c7","timestamp":"2025-04-11T10:14:20.333Z"}
-{"id":"67f8eb7cffb14dc561cd87cd","level":"info","message":"Seeded subcategory","name":"Footwear","parentId":"67f8eb7cffb14dc561cd87c7","timestamp":"2025-04-11T10:14:20.397Z"}
-{"id":"67f8eb7cffb14dc561cd87cf","level":"info","message":"Seeded subcategory","name":"Accessories","parentId":"67f8eb7cffb14dc561cd87c7","timestamp":"2025-04-11T10:14:20.442Z"}
-{"id":"67f8eb7cffb14dc561cd87d1","level":"info","message":"Seeded parent category","name":"Automotive Industry","timestamp":"2025-04-11T10:14:20.489Z"}
-{"id":"67f8eb7cffb14dc561cd87d3","level":"info","message":"Seeded subcategory","name":"Vehicles","parentId":"67f8eb7cffb14dc561cd87d1","timestamp":"2025-04-11T10:14:20.531Z"}
-{"id":"67f8eb7cffb14dc561cd87d5","level":"info","message":"Seeded subcategory","name":"Auto Components","parentId":"67f8eb7cffb14dc561cd87d1","timestamp":"2025-04-11T10:14:20.575Z"}
-{"id":"67f8eb7cffb14dc561cd87d7","level":"info","message":"Seeded subcategory","name":"Garage Equipment","parentId":"67f8eb7cffb14dc561cd87d1","timestamp":"2025-04-11T10:14:20.621Z"}
-{"id":"67f8eb7cffb14dc561cd87d9","level":"info","message":"Seeded parent category","name":"Construction and Real Estate","timestamp":"2025-04-11T10:14:20.663Z"}
-{"id":"67f8eb7cffb14dc561cd87db","level":"info","message":"Seeded subcategory","name":"Building Materials","parentId":"67f8eb7cffb14dc561cd87d9","timestamp":"2025-04-11T10:14:20.709Z"}
-{"id":"67f8eb7cffb14dc561cd87dd","level":"info","message":"Seeded subcategory","name":"Construction Machinery","parentId":"67f8eb7cffb14dc561cd87d9","timestamp":"2025-04-11T10:14:20.752Z"}
-{"id":"67f8eb7cffb14dc561cd87df","level":"info","message":"Seeded subcategory","name":"Real Estate Services","parentId":"67f8eb7cffb14dc561cd87d9","timestamp":"2025-04-11T10:14:20.797Z"}
-{"id":"67f8eb7cffb14dc561cd87e1","level":"info","message":"Seeded parent category","name":"Electronics and Electrical","timestamp":"2025-04-11T10:14:20.844Z"}
-{"id":"67f8eb7cffb14dc561cd87e3","level":"info","message":"Seeded subcategory","name":"Consumer Electronics","parentId":"67f8eb7cffb14dc561cd87e1","timestamp":"2025-04-11T10:14:20.887Z"}
-{"id":"67f8eb7cffb14dc561cd87e5","level":"info","message":"Seeded subcategory","name":"Electrical Equipment","parentId":"67f8eb7cffb14dc561cd87e1","timestamp":"2025-04-11T10:14:20.929Z"}
-{"id":"67f8eb7cffb14dc561cd87e7","level":"info","message":"Seeded subcategory","name":"Electronic Components","parentId":"67f8eb7cffb14dc561cd87e1","timestamp":"2025-04-11T10:14:20.974Z"}
-{"id":"67f8eb7cffb14dc561cd87e9","level":"info","message":"Seeded parent category","name":"Health and Medical","timestamp":"2025-04-11T10:14:21.020Z"}
-{"id":"67f8eb7dffb14dc561cd87eb","level":"info","message":"Seeded subcategory","name":"Medical Equipment","parentId":"67f8eb7cffb14dc561cd87e9","timestamp":"2025-04-11T10:14:21.073Z"}
-{"id":"67f8eb7dffb14dc561cd87ed","level":"info","message":"Seeded subcategory","name":"Pharmaceuticals","parentId":"67f8eb7cffb14dc561cd87e9","timestamp":"2025-04-11T10:14:21.116Z"}
-{"id":"67f8eb7dffb14dc561cd87ef","level":"info","message":"Seeded subcategory","name":"Healthcare Services","parentId":"67f8eb7cffb14dc561cd87e9","timestamp":"2025-04-11T10:14:21.159Z"}
-{"id":"67f8eb7dffb14dc561cd87f1","level":"info","message":"Seeded parent category","name":"Industrial Machinery","timestamp":"2025-04-11T10:14:21.205Z"}
-{"id":"67f8eb7dffb14dc561cd87f3","level":"info","message":"Seeded subcategory","name":"Machinery","parentId":"67f8eb7dffb14dc561cd87f1","timestamp":"2025-04-11T10:14:21.249Z"}
-{"id":"67f8eb7dffb14dc561cd87f5","level":"info","message":"Seeded subcategory","name":"Tools and Equipment","parentId":"67f8eb7dffb14dc561cd87f1","timestamp":"2025-04-11T10:14:21.301Z"}
-{"id":"67f8eb7dffb14dc561cd87f7","level":"info","message":"Seeded subcategory","name":"Industrial Supplies","parentId":"67f8eb7dffb14dc561cd87f1","timestamp":"2025-04-11T10:14:21.344Z"}
-{"id":"67f8eb7dffb14dc561cd87f9","level":"info","message":"Seeded parent category","name":"IT and Telecom","timestamp":"2025-04-11T10:14:21.390Z"}
-{"id":"67f8eb7dffb14dc561cd87fb","level":"info","message":"Seeded subcategory","name":"Software","parentId":"67f8eb7dffb14dc561cd87f9","timestamp":"2025-04-11T10:14:21.432Z"}
-{"id":"67f8eb7dffb14dc561cd87fd","level":"info","message":"Seeded subcategory","name":"Hardware","parentId":"67f8eb7dffb14dc561cd87f9","timestamp":"2025-04-11T10:14:21.477Z"}
-{"id":"67f8eb7dffb14dc561cd87ff","level":"info","message":"Seeded subcategory","name":"Telecommunication Services","parentId":"67f8eb7dffb14dc561cd87f9","timestamp":"2025-04-11T10:14:21.529Z"}
-{"id":"67f8eb7dffb14dc561cd8801","level":"info","message":"Seeded parent category","name":"Office Supplies","timestamp":"2025-04-11T10:14:21.574Z"}
-{"id":"67f8eb7dffb14dc561cd8803","level":"info","message":"Seeded subcategory","name":"Furniture","parentId":"67f8eb7dffb14dc561cd8801","timestamp":"2025-04-11T10:14:21.619Z"}
-{"id":"67f8eb7dffb14dc561cd8805","level":"info","message":"Seeded subcategory","name":"Stationery","parentId":"67f8eb7dffb14dc561cd8801","timestamp":"2025-04-11T10:14:21.661Z"}
-{"id":"67f8eb7dffb14dc561cd8807","level":"info","message":"Seeded subcategory","name":"Office Automation","parentId":"67f8eb7dffb14dc561cd8801","timestamp":"2025-04-11T10:14:21.717Z"}
-{"id":"67f8eb7dffb14dc561cd8809","level":"info","message":"Seeded parent category","name":"Packaging Industry","timestamp":"2025-04-11T10:14:21.766Z"}
-{"id":"67f8eb7dffb14dc561cd880b","level":"info","message":"Seeded subcategory","name":"Packaging Materials","parentId":"67f8eb7dffb14dc561cd8809","timestamp":"2025-04-11T10:14:21.810Z"}
-{"id":"67f8eb7dffb14dc561cd880d","level":"info","message":"Seeded subcategory","name":"Packaging Machines","parentId":"67f8eb7dffb14dc561cd8809","timestamp":"2025-04-11T10:14:21.854Z"}
-{"id":"67f8eb7dffb14dc561cd880f","level":"info","message":"Seeded parent category","name":"Chemical Industry","timestamp":"2025-04-11T10:14:21.896Z"}
-{"id":"67f8eb7dffb14dc561cd8811","level":"info","message":"Seeded subcategory","name":"Industrial Chemicals","parentId":"67f8eb7dffb14dc561cd880f","timestamp":"2025-04-11T10:14:21.941Z"}
-{"id":"67f8eb7dffb14dc561cd8813","level":"info","message":"Seeded subcategory","name":"Agro Chemicals","parentId":"67f8eb7dffb14dc561cd880f","timestamp":"2025-04-11T10:14:21.982Z"}
-{"id":"67f8eb7dffb14dc561cd8815","level":"info","message":"Seeded subcategory","name":"Dyes & Pigments","parentId":"67f8eb7dffb14dc561cd880f","timestamp":"2025-04-11T10:14:22.026Z"}
-{"id":"67f8eb7effb14dc561cd8817","level":"info","message":"Seeded parent category","name":"Energy & Power","timestamp":"2025-04-11T10:14:22.068Z"}
-{"id":"67f8eb7effb14dc561cd8819","level":"info","message":"Seeded subcategory","name":"Renewable Energy","parentId":"67f8eb7effb14dc561cd8817","timestamp":"2025-04-11T10:14:22.111Z"}
-{"id":"67f8eb7effb14dc561cd881b","level":"info","message":"Seeded subcategory","name":"Power Distribution Equipment","parentId":"67f8eb7effb14dc561cd8817","timestamp":"2025-04-11T10:14:22.156Z"}
-{"id":"67f8eb7effb14dc561cd881d","level":"info","message":"Seeded subcategory","name":"Batteries & UPS","parentId":"67f8eb7effb14dc561cd8817","timestamp":"2025-04-11T10:14:22.198Z"}
-{"id":"67f8eb7effb14dc561cd881f","level":"info","message":"Seeded parent category","name":"Education & Training","timestamp":"2025-04-11T10:14:22.241Z"}
-{"id":"67f8eb7effb14dc561cd8821","level":"info","message":"Seeded subcategory","name":"EdTech Solutions","parentId":"67f8eb7effb14dc561cd881f","timestamp":"2025-04-11T10:14:22.286Z"}
-{"id":"67f8eb7effb14dc561cd8823","level":"info","message":"Seeded subcategory","name":"Skill Development","parentId":"67f8eb7effb14dc561cd881f","timestamp":"2025-04-11T10:14:22.328Z"}
-{"id":"67f8eb7effb14dc561cd8825","level":"info","message":"Seeded subcategory","name":"Coaching & Tutoring","parentId":"67f8eb7effb14dc561cd881f","timestamp":"2025-04-11T10:14:22.378Z"}
-{"id":"67f8eb7effb14dc561cd8827","level":"info","message":"Seeded parent category","name":"Printing & Publishing","timestamp":"2025-04-11T10:14:22.428Z"}
-{"id":"67f8eb7effb14dc561cd8829","level":"info","message":"Seeded subcategory","name":"Commercial Printing","parentId":"67f8eb7effb14dc561cd8827","timestamp":"2025-04-11T10:14:22.472Z"}
-{"id":"67f8eb7effb14dc561cd882b","level":"info","message":"Seeded subcategory","name":"Publishing Services","parentId":"67f8eb7effb14dc561cd8827","timestamp":"2025-04-11T10:14:22.515Z"}
-{"id":"67f8eb7effb14dc561cd882d","level":"info","message":"Seeded subcategory","name":"Packaging Design","parentId":"67f8eb7effb14dc561cd8827","timestamp":"2025-04-11T10:14:22.561Z"}
-{"id":"67f8eb7effb14dc561cd882f","level":"info","message":"Seeded parent category","name":"Tourism & Hospitality","timestamp":"2025-04-11T10:14:22.606Z"}
-{"id":"67f8eb7effb14dc561cd8831","level":"info","message":"Seeded subcategory","name":"Hotels & Resorts","parentId":"67f8eb7effb14dc561cd882f","timestamp":"2025-04-11T10:14:22.653Z"}
-{"id":"67f8eb7effb14dc561cd8833","level":"info","message":"Seeded subcategory","name":"Travel Agencies","parentId":"67f8eb7effb14dc561cd882f","timestamp":"2025-04-11T10:14:22.697Z"}
-{"id":"67f8eb7effb14dc561cd8835","level":"info","message":"Seeded subcategory","name":"Catering Services","parentId":"67f8eb7effb14dc561cd882f","timestamp":"2025-04-11T10:14:22.745Z"}
-{"id":"67f8eb7effb14dc561cd8837","level":"info","message":"Seeded parent category","name":"Security & Surveillance","timestamp":"2025-04-11T10:14:22.790Z"}
-{"id":"67f8eb7effb14dc561cd8839","level":"info","message":"Seeded subcategory","name":"CCTV & Surveillance","parentId":"67f8eb7effb14dc561cd8837","timestamp":"2025-04-11T10:14:22.835Z"}
-{"id":"67f8eb7effb14dc561cd883b","level":"info","message":"Seeded subcategory","name":"Personal Security Services","parentId":"67f8eb7effb14dc561cd8837","timestamp":"2025-04-11T10:14:22.878Z"}
-{"id":"67f8eb7effb14dc561cd883d","level":"info","message":"Seeded subcategory","name":"Safety Equipment","parentId":"67f8eb7effb14dc561cd8837","timestamp":"2025-04-11T10:14:22.922Z"}
-{"id":"67f8eb7effb14dc561cd883f","level":"info","message":"Seeded parent category","name":"Beauty & Personal Care","timestamp":"2025-04-11T10:14:22.964Z"}
-{"id":"67f8eb7effb14dc561cd8841","level":"info","message":"Seeded subcategory","name":"Cosmetics","parentId":"67f8eb7effb14dc561cd883f","timestamp":"2025-04-11T10:14:23.011Z"}
-{"id":"67f8eb7fffb14dc561cd8843","level":"info","message":"Seeded subcategory","name":"Salon Equipment","parentId":"67f8eb7effb14dc561cd883f","timestamp":"2025-04-11T10:14:23.055Z"}
-{"id":"67f8eb7fffb14dc561cd8845","level":"info","message":"Seeded subcategory","name":"Skincare Products","parentId":"67f8eb7effb14dc561cd883f","timestamp":"2025-04-11T10:14:23.097Z"}
-{"id":"67f8eb7fffb14dc561cd8847","level":"info","message":"Seeded parent category","name":"Transportation & Logistics","timestamp":"2025-04-11T10:14:23.143Z"}
-{"id":"67f8eb7fffb14dc561cd8849","level":"info","message":"Seeded subcategory","name":"Freight & Cargo Services","parentId":"67f8eb7fffb14dc561cd8847","timestamp":"2025-04-11T10:14:23.185Z"}
-{"id":"67f8eb7fffb14dc561cd884b","level":"info","message":"Seeded subcategory","name":"Vehicle Rentals","parentId":"67f8eb7fffb14dc561cd8847","timestamp":"2025-04-11T10:14:23.228Z"}
-{"id":"67f8eb7fffb14dc561cd884d","level":"info","message":"Seeded subcategory","name":"Warehousing Solutions","parentId":"67f8eb7fffb14dc561cd8847","timestamp":"2025-04-11T10:14:23.272Z"}
-{"id":"67f8eb7fffb14dc561cd884f","level":"info","message":"Seeded parent category","name":"Environment & Waste Management","timestamp":"2025-04-11T10:14:23.320Z"}
-{"id":"67f8eb7fffb14dc561cd8851","level":"info","message":"Seeded subcategory","name":"Recycling Equipment","parentId":"67f8eb7fffb14dc561cd884f","timestamp":"2025-04-11T10:14:23.369Z"}
-{"id":"67f8eb7fffb14dc561cd8853","level":"info","message":"Seeded subcategory","name":"Waste Disposal Services","parentId":"67f8eb7fffb14dc561cd884f","timestamp":"2025-04-11T10:14:23.410Z"}
-{"level":"info","message":"Connected to MongoDB for seeding","timestamp":"2025-04-11T10:14:43.925Z"}
-{"level":"info","message":"Cleared existing categories","timestamp":"2025-04-11T10:14:44.232Z"}
-{"id":"67f8eb94cd0ff51ec4f5c22d","level":"info","message":"Seeded parent category","name":"Agriculture and Food Industry","timestamp":"2025-04-11T10:14:44.304Z"}
-{"id":"67f8eb94cd0ff51ec4f5c22f","level":"info","message":"Seeded subcategory","name":"Agricultural Equipment","parentId":"67f8eb94cd0ff51ec4f5c22d","timestamp":"2025-04-11T10:14:44.351Z"}
-{"id":"67f8eb94cd0ff51ec4f5c231","level":"info","message":"Seeded subcategory","name":"Food Grains","parentId":"67f8eb94cd0ff51ec4f5c22d","timestamp":"2025-04-11T10:14:44.397Z"}
-{"id":"67f8eb94cd0ff51ec4f5c233","level":"info","message":"Seeded subcategory","name":"Dairy Products","parentId":"67f8eb94cd0ff51ec4f5c22d","timestamp":"2025-04-11T10:14:44.441Z"}
-{"id":"67f8eb94cd0ff51ec4f5c235","level":"info","message":"Seeded subcategory","name":"Processed Foods","parentId":"67f8eb94cd0ff51ec4f5c22d","timestamp":"2025-04-11T10:14:44.486Z"}
-{"id":"67f8eb94cd0ff51ec4f5c237","level":"info","message":"Seeded parent category","name":"Apparel and Fashion","timestamp":"2025-04-11T10:14:44.542Z"}
-{"id":"67f8eb94cd0ff51ec4f5c239","level":"info","message":"Seeded subcategory","name":"Men's Clothing","parentId":"67f8eb94cd0ff51ec4f5c237","timestamp":"2025-04-11T10:14:44.589Z"}
-{"id":"67f8eb94cd0ff51ec4f5c23b","level":"info","message":"Seeded subcategory","name":"Women's Clothing","parentId":"67f8eb94cd0ff51ec4f5c237","timestamp":"2025-04-11T10:14:44.636Z"}
-{"id":"67f8eb94cd0ff51ec4f5c23d","level":"info","message":"Seeded subcategory","name":"Footwear","parentId":"67f8eb94cd0ff51ec4f5c237","timestamp":"2025-04-11T10:14:44.686Z"}
-{"id":"67f8eb94cd0ff51ec4f5c23f","level":"info","message":"Seeded subcategory","name":"Accessories","parentId":"67f8eb94cd0ff51ec4f5c237","timestamp":"2025-04-11T10:14:44.758Z"}
-{"id":"67f8eb94cd0ff51ec4f5c241","level":"info","message":"Seeded parent category","name":"Automotive Industry","timestamp":"2025-04-11T10:14:44.806Z"}
-{"id":"67f8eb94cd0ff51ec4f5c243","level":"info","message":"Seeded subcategory","name":"Vehicles","parentId":"67f8eb94cd0ff51ec4f5c241","timestamp":"2025-04-11T10:14:44.853Z"}
-{"id":"67f8eb94cd0ff51ec4f5c245","level":"info","message":"Seeded subcategory","name":"Auto Components","parentId":"67f8eb94cd0ff51ec4f5c241","timestamp":"2025-04-11T10:14:44.899Z"}
-{"id":"67f8eb94cd0ff51ec4f5c247","level":"info","message":"Seeded subcategory","name":"Garage Equipment","parentId":"67f8eb94cd0ff51ec4f5c241","timestamp":"2025-04-11T10:14:44.946Z"}
-{"id":"67f8eb94cd0ff51ec4f5c249","level":"info","message":"Seeded parent category","name":"Construction and Real Estate","timestamp":"2025-04-11T10:14:44.993Z"}
-{"id":"67f8eb94cd0ff51ec4f5c24b","level":"info","message":"Seeded subcategory","name":"Building Materials","parentId":"67f8eb94cd0ff51ec4f5c249","timestamp":"2025-04-11T10:14:45.040Z"}
-{"id":"67f8eb95cd0ff51ec4f5c24d","level":"info","message":"Seeded subcategory","name":"Construction Machinery","parentId":"67f8eb94cd0ff51ec4f5c249","timestamp":"2025-04-11T10:14:45.086Z"}
-{"id":"67f8eb95cd0ff51ec4f5c24f","level":"info","message":"Seeded subcategory","name":"Real Estate Services","parentId":"67f8eb94cd0ff51ec4f5c249","timestamp":"2025-04-11T10:14:45.137Z"}
-{"id":"67f8eb95cd0ff51ec4f5c251","level":"info","message":"Seeded parent category","name":"Electronics and Electrical","timestamp":"2025-04-11T10:14:45.184Z"}
-{"id":"67f8eb95cd0ff51ec4f5c253","level":"info","message":"Seeded subcategory","name":"Consumer Electronics","parentId":"67f8eb95cd0ff51ec4f5c251","timestamp":"2025-04-11T10:14:45.230Z"}
-{"id":"67f8eb95cd0ff51ec4f5c255","level":"info","message":"Seeded subcategory","name":"Electrical Equipment","parentId":"67f8eb95cd0ff51ec4f5c251","timestamp":"2025-04-11T10:14:45.274Z"}
-{"id":"67f8eb95cd0ff51ec4f5c257","level":"info","message":"Seeded subcategory","name":"Electronic Components","parentId":"67f8eb95cd0ff51ec4f5c251","timestamp":"2025-04-11T10:14:45.333Z"}
-{"id":"67f8eb95cd0ff51ec4f5c259","level":"info","message":"Seeded parent category","name":"Health and Medical","timestamp":"2025-04-11T10:14:45.380Z"}
-{"id":"67f8eb95cd0ff51ec4f5c25b","level":"info","message":"Seeded subcategory","name":"Medical Equipment","parentId":"67f8eb95cd0ff51ec4f5c259","timestamp":"2025-04-11T10:14:45.429Z"}
-{"id":"67f8eb95cd0ff51ec4f5c25d","level":"info","message":"Seeded subcategory","name":"Pharmaceuticals","parentId":"67f8eb95cd0ff51ec4f5c259","timestamp":"2025-04-11T10:14:45.478Z"}
-{"id":"67f8eb95cd0ff51ec4f5c25f","level":"info","message":"Seeded subcategory","name":"Healthcare Services","parentId":"67f8eb95cd0ff51ec4f5c259","timestamp":"2025-04-11T10:14:45.521Z"}
-{"id":"67f8eb95cd0ff51ec4f5c261","level":"info","message":"Seeded parent category","name":"Industrial Machinery","timestamp":"2025-04-11T10:14:45.572Z"}
-{"id":"67f8eb95cd0ff51ec4f5c263","level":"info","message":"Seeded subcategory","name":"Machinery","parentId":"67f8eb95cd0ff51ec4f5c261","timestamp":"2025-04-11T10:14:45.617Z"}
-{"id":"67f8eb95cd0ff51ec4f5c265","level":"info","message":"Seeded subcategory","name":"Tools and Equipment","parentId":"67f8eb95cd0ff51ec4f5c261","timestamp":"2025-04-11T10:14:45.667Z"}
-{"id":"67f8eb95cd0ff51ec4f5c267","level":"info","message":"Seeded subcategory","name":"Industrial Supplies","parentId":"67f8eb95cd0ff51ec4f5c261","timestamp":"2025-04-11T10:14:45.715Z"}
-{"id":"67f8eb95cd0ff51ec4f5c269","level":"info","message":"Seeded parent category","name":"IT and Telecom","timestamp":"2025-04-11T10:14:45.767Z"}
-{"id":"67f8eb95cd0ff51ec4f5c26b","level":"info","message":"Seeded subcategory","name":"Software","parentId":"67f8eb95cd0ff51ec4f5c269","timestamp":"2025-04-11T10:14:45.813Z"}
-{"id":"67f8eb95cd0ff51ec4f5c26d","level":"info","message":"Seeded subcategory","name":"Hardware","parentId":"67f8eb95cd0ff51ec4f5c269","timestamp":"2025-04-11T10:14:45.870Z"}
-{"id":"67f8eb95cd0ff51ec4f5c26f","level":"info","message":"Seeded subcategory","name":"Telecommunication Services","parentId":"67f8eb95cd0ff51ec4f5c269","timestamp":"2025-04-11T10:14:45.916Z"}
-{"id":"67f8eb95cd0ff51ec4f5c271","level":"info","message":"Seeded parent category","name":"Office Supplies","timestamp":"2025-04-11T10:14:45.964Z"}
-{"id":"67f8eb95cd0ff51ec4f5c273","level":"info","message":"Seeded subcategory","name":"Furniture","parentId":"67f8eb95cd0ff51ec4f5c271","timestamp":"2025-04-11T10:14:46.010Z"}
-{"id":"67f8eb96cd0ff51ec4f5c275","level":"info","message":"Seeded subcategory","name":"Stationery","parentId":"67f8eb95cd0ff51ec4f5c271","timestamp":"2025-04-11T10:14:46.056Z"}
-{"id":"67f8eb96cd0ff51ec4f5c277","level":"info","message":"Seeded subcategory","name":"Office Automation","parentId":"67f8eb95cd0ff51ec4f5c271","timestamp":"2025-04-11T10:14:46.100Z"}
-{"id":"67f8eb96cd0ff51ec4f5c279","level":"info","message":"Seeded parent category","name":"Packaging Industry","timestamp":"2025-04-11T10:14:46.142Z"}
-{"id":"67f8eb96cd0ff51ec4f5c27b","level":"info","message":"Seeded subcategory","name":"Packaging Materials","parentId":"67f8eb96cd0ff51ec4f5c279","timestamp":"2025-04-11T10:14:46.186Z"}
-{"id":"67f8eb96cd0ff51ec4f5c27d","level":"info","message":"Seeded subcategory","name":"Packaging Machines","parentId":"67f8eb96cd0ff51ec4f5c279","timestamp":"2025-04-11T10:14:46.235Z"}
-{"id":"67f8eb96cd0ff51ec4f5c27f","level":"info","message":"Seeded parent category","name":"Chemical Industry","timestamp":"2025-04-11T10:14:46.288Z"}
-{"id":"67f8eb96cd0ff51ec4f5c281","level":"info","message":"Seeded subcategory","name":"Industrial Chemicals","parentId":"67f8eb96cd0ff51ec4f5c27f","timestamp":"2025-04-11T10:14:46.382Z"}
-{"id":"67f8eb96cd0ff51ec4f5c283","level":"info","message":"Seeded subcategory","name":"Agro Chemicals","parentId":"67f8eb96cd0ff51ec4f5c27f","timestamp":"2025-04-11T10:14:46.433Z"}
-{"id":"67f8eb96cd0ff51ec4f5c285","level":"info","message":"Seeded subcategory","name":"Dyes & Pigments","parentId":"67f8eb96cd0ff51ec4f5c27f","timestamp":"2025-04-11T10:14:46.475Z"}
-{"id":"67f8eb96cd0ff51ec4f5c287","level":"info","message":"Seeded parent category","name":"Energy & Power","timestamp":"2025-04-11T10:14:46.530Z"}
-{"id":"67f8eb96cd0ff51ec4f5c289","level":"info","message":"Seeded subcategory","name":"Renewable Energy","parentId":"67f8eb96cd0ff51ec4f5c287","timestamp":"2025-04-11T10:14:46.582Z"}
-{"id":"67f8eb96cd0ff51ec4f5c28b","level":"info","message":"Seeded subcategory","name":"Power Distribution Equipment","parentId":"67f8eb96cd0ff51ec4f5c287","timestamp":"2025-04-11T10:14:46.635Z"}
-{"id":"67f8eb96cd0ff51ec4f5c28d","level":"info","message":"Seeded subcategory","name":"Batteries & UPS","parentId":"67f8eb96cd0ff51ec4f5c287","timestamp":"2025-04-11T10:14:46.681Z"}
-{"id":"67f8eb96cd0ff51ec4f5c28f","level":"info","message":"Seeded parent category","name":"Education & Training","timestamp":"2025-04-11T10:14:46.736Z"}
-{"id":"67f8eb96cd0ff51ec4f5c291","level":"info","message":"Seeded subcategory","name":"EdTech Solutions","parentId":"67f8eb96cd0ff51ec4f5c28f","timestamp":"2025-04-11T10:14:46.785Z"}
-{"id":"67f8eb96cd0ff51ec4f5c293","level":"info","message":"Seeded subcategory","name":"Skill Development","parentId":"67f8eb96cd0ff51ec4f5c28f","timestamp":"2025-04-11T10:14:46.849Z"}
-{"id":"67f8eb96cd0ff51ec4f5c295","level":"info","message":"Seeded subcategory","name":"Coaching & Tutoring","parentId":"67f8eb96cd0ff51ec4f5c28f","timestamp":"2025-04-11T10:14:47.058Z"}
-{"id":"67f8eb97cd0ff51ec4f5c297","level":"info","message":"Seeded parent category","name":"Printing & Publishing","timestamp":"2025-04-11T10:14:47.101Z"}
-{"id":"67f8eb97cd0ff51ec4f5c299","level":"info","message":"Seeded subcategory","name":"Commercial Printing","parentId":"67f8eb97cd0ff51ec4f5c297","timestamp":"2025-04-11T10:14:47.148Z"}
-{"id":"67f8eb97cd0ff51ec4f5c29b","level":"info","message":"Seeded subcategory","name":"Publishing Services","parentId":"67f8eb97cd0ff51ec4f5c297","timestamp":"2025-04-11T10:14:47.206Z"}
-{"id":"67f8eb97cd0ff51ec4f5c29d","level":"info","message":"Seeded subcategory","name":"Packaging Design","parentId":"67f8eb97cd0ff51ec4f5c297","timestamp":"2025-04-11T10:14:47.252Z"}
-{"id":"67f8eb97cd0ff51ec4f5c29f","level":"info","message":"Seeded parent category","name":"Tourism & Hospitality","timestamp":"2025-04-11T10:14:47.304Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2a1","level":"info","message":"Seeded subcategory","name":"Hotels & Resorts","parentId":"67f8eb97cd0ff51ec4f5c29f","timestamp":"2025-04-11T10:14:47.349Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2a3","level":"info","message":"Seeded subcategory","name":"Travel Agencies","parentId":"67f8eb97cd0ff51ec4f5c29f","timestamp":"2025-04-11T10:14:47.395Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2a5","level":"info","message":"Seeded subcategory","name":"Catering Services","parentId":"67f8eb97cd0ff51ec4f5c29f","timestamp":"2025-04-11T10:14:47.440Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2a7","level":"info","message":"Seeded parent category","name":"Security & Surveillance","timestamp":"2025-04-11T10:14:47.485Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2a9","level":"info","message":"Seeded subcategory","name":"CCTV & Surveillance","parentId":"67f8eb97cd0ff51ec4f5c2a7","timestamp":"2025-04-11T10:14:47.529Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2ab","level":"info","message":"Seeded subcategory","name":"Personal Security Services","parentId":"67f8eb97cd0ff51ec4f5c2a7","timestamp":"2025-04-11T10:14:47.574Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2ad","level":"info","message":"Seeded subcategory","name":"Safety Equipment","parentId":"67f8eb97cd0ff51ec4f5c2a7","timestamp":"2025-04-11T10:14:47.620Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2af","level":"info","message":"Seeded parent category","name":"Beauty & Personal Care","timestamp":"2025-04-11T10:14:47.665Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2b1","level":"info","message":"Seeded subcategory","name":"Cosmetics","parentId":"67f8eb97cd0ff51ec4f5c2af","timestamp":"2025-04-11T10:14:47.711Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2b3","level":"info","message":"Seeded subcategory","name":"Salon Equipment","parentId":"67f8eb97cd0ff51ec4f5c2af","timestamp":"2025-04-11T10:14:47.759Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2b5","level":"info","message":"Seeded subcategory","name":"Skincare Products","parentId":"67f8eb97cd0ff51ec4f5c2af","timestamp":"2025-04-11T10:14:47.804Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2b7","level":"info","message":"Seeded parent category","name":"Transportation & Logistics","timestamp":"2025-04-11T10:14:47.848Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2b9","level":"info","message":"Seeded subcategory","name":"Freight & Cargo Services","parentId":"67f8eb97cd0ff51ec4f5c2b7","timestamp":"2025-04-11T10:14:47.893Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2bb","level":"info","message":"Seeded subcategory","name":"Vehicle Rentals","parentId":"67f8eb97cd0ff51ec4f5c2b7","timestamp":"2025-04-11T10:14:47.938Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2bd","level":"info","message":"Seeded subcategory","name":"Warehousing Solutions","parentId":"67f8eb97cd0ff51ec4f5c2b7","timestamp":"2025-04-11T10:14:47.989Z"}
-{"id":"67f8eb97cd0ff51ec4f5c2bf","level":"info","message":"Seeded parent category","name":"Environment & Waste Management","timestamp":"2025-04-11T10:14:48.033Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2c1","level":"info","message":"Seeded subcategory","name":"Recycling Equipment","parentId":"67f8eb97cd0ff51ec4f5c2bf","timestamp":"2025-04-11T10:14:48.075Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2c3","level":"info","message":"Seeded subcategory","name":"Waste Disposal Services","parentId":"67f8eb97cd0ff51ec4f5c2bf","timestamp":"2025-04-11T10:14:48.117Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2c5","level":"info","message":"Seeded subcategory","name":"Pollution Control Devices","parentId":"67f8eb97cd0ff51ec4f5c2bf","timestamp":"2025-04-11T10:14:48.166Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2c7","level":"info","message":"Seeded parent category","name":"Mining & Metals","timestamp":"2025-04-11T10:14:48.220Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2c9","level":"info","message":"Seeded subcategory","name":"Minerals & Ores","parentId":"67f8eb98cd0ff51ec4f5c2c7","timestamp":"2025-04-11T10:14:48.267Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2cb","level":"info","message":"Seeded subcategory","name":"Metal Products","parentId":"67f8eb98cd0ff51ec4f5c2c7","timestamp":"2025-04-11T10:14:48.313Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2cd","level":"info","message":"Seeded subcategory","name":"Mining Machinery","parentId":"67f8eb98cd0ff51ec4f5c2c7","timestamp":"2025-04-11T10:14:48.359Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2cf","level":"info","message":"Seeded parent category","name":"Handicrafts & Handlooms","timestamp":"2025-04-11T10:14:48.403Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2d1","level":"info","message":"Seeded subcategory","name":"Traditional Crafts","parentId":"67f8eb98cd0ff51ec4f5c2cf","timestamp":"2025-04-11T10:14:48.465Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2d3","level":"info","message":"Seeded subcategory","name":"Handmade Textiles","parentId":"67f8eb98cd0ff51ec4f5c2cf","timestamp":"2025-04-11T10:14:48.514Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2d5","level":"info","message":"Seeded subcategory","name":"Decor Items","parentId":"67f8eb98cd0ff51ec4f5c2cf","timestamp":"2025-04-11T10:14:48.563Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2d7","level":"info","message":"Seeded parent category","name":"Legal & Financial Services","timestamp":"2025-04-11T10:14:48.606Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2d9","level":"info","message":"Seeded subcategory","name":"Accounting & Taxation","parentId":"67f8eb98cd0ff51ec4f5c2d7","timestamp":"2025-04-11T10:14:48.650Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2db","level":"info","message":"Seeded subcategory","name":"Legal Consultancy","parentId":"67f8eb98cd0ff51ec4f5c2d7","timestamp":"2025-04-11T10:14:48.699Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2dd","level":"info","message":"Seeded subcategory","name":"Investment & Insurance","parentId":"67f8eb98cd0ff51ec4f5c2d7","timestamp":"2025-04-11T10:14:48.748Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2df","level":"info","message":"Seeded parent category","name":"Sports & Fitness","timestamp":"2025-04-11T10:14:48.796Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2e1","level":"info","message":"Seeded subcategory","name":"Gym Equipment","parentId":"67f8eb98cd0ff51ec4f5c2df","timestamp":"2025-04-11T10:14:48.851Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2e3","level":"info","message":"Seeded subcategory","name":"Sports Gear","parentId":"67f8eb98cd0ff51ec4f5c2df","timestamp":"2025-04-11T10:14:48.897Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2e5","level":"info","message":"Seeded subcategory","name":"Outdoor & Adventure","parentId":"67f8eb98cd0ff51ec4f5c2df","timestamp":"2025-04-11T10:14:48.942Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2e7","level":"info","message":"Seeded parent category","name":"Events & Entertainment","timestamp":"2025-04-11T10:14:48.987Z"}
-{"id":"67f8eb98cd0ff51ec4f5c2e9","level":"info","message":"Seeded subcategory","name":"Event Management","parentId":"67f8eb98cd0ff51ec4f5c2e7","timestamp":"2025-04-11T10:14:49.036Z"}
-{"id":"67f8eb99cd0ff51ec4f5c2eb","level":"info","message":"Seeded subcategory","name":"Audio Visual Services","parentId":"67f8eb98cd0ff51ec4f5c2e7","timestamp":"2025-04-11T10:14:49.080Z"}
-{"id":"67f8eb99cd0ff51ec4f5c2ed","level":"info","message":"Seeded subcategory","name":"Talent & Artist Booking","parentId":"67f8eb98cd0ff51ec4f5c2e7","timestamp":"2025-04-11T10:14:49.126Z"}
-{"id":"67f8eb99cd0ff51ec4f5c2ef","level":"info","message":"Seeded parent category","name":"Pets & Animal Supplies","timestamp":"2025-04-11T10:14:49.171Z"}
-{"id":"67f8eb99cd0ff51ec4f5c2f1","level":"info","message":"Seeded subcategory","name":"Pet Food & Accessories","parentId":"67f8eb99cd0ff51ec4f5c2ef","timestamp":"2025-04-11T10:14:49.214Z"}
-{"id":"67f8eb99cd0ff51ec4f5c2f3","level":"info","message":"Seeded subcategory","name":"Veterinary Products","parentId":"67f8eb99cd0ff51ec4f5c2ef","timestamp":"2025-04-11T10:14:49.260Z"}
-{"id":"67f8eb99cd0ff51ec4f5c2f5","level":"info","message":"Seeded subcategory","name":"Livestock Supplies","parentId":"67f8eb99cd0ff51ec4f5c2ef","timestamp":"2025-04-11T10:14:49.330Z"}
-{"id":"67f8eb99cd0ff51ec4f5c2f7","level":"info","message":"Seeded parent category","name":"Home & Garden","timestamp":"2025-04-11T10:14:49.375Z"}
-{"id":"67f8eb99cd0ff51ec4f5c2f9","level":"info","message":"Seeded subcategory","name":"Gardening Tools","parentId":"67f8eb99cd0ff51ec4f5c2f7","timestamp":"2025-04-11T10:14:49.427Z"}
-{"id":"67f8eb99cd0ff51ec4f5c2fb","level":"info","message":"Seeded subcategory","name":"Home Decor","parentId":"67f8eb99cd0ff51ec4f5c2f7","timestamp":"2025-04-11T10:14:49.473Z"}
-{"id":"67f8eb99cd0ff51ec4f5c2fd","level":"info","message":"Seeded subcategory","name":"Kitchen Essentials","parentId":"67f8eb99cd0ff51ec4f5c2f7","timestamp":"2025-04-11T10:14:49.519Z"}
-{"id":"67f8eb99cd0ff51ec4f5c2ff","level":"info","message":"Seeded parent category","name":"Plastic & Rubber Industry","timestamp":"2025-04-11T10:14:49.561Z"}
-{"id":"67f8eb99cd0ff51ec4f5c301","level":"info","message":"Seeded subcategory","name":"Plastic Raw Materials","parentId":"67f8eb99cd0ff51ec4f5c2ff","timestamp":"2025-04-11T10:14:49.626Z"}
-{"id":"67f8eb99cd0ff51ec4f5c303","level":"info","message":"Seeded subcategory","name":"Molded Products","parentId":"67f8eb99cd0ff51ec4f5c2ff","timestamp":"2025-04-11T10:14:49.674Z"}
-{"id":"67f8eb99cd0ff51ec4f5c305","level":"info","message":"Seeded subcategory","name":"Rubber Components","parentId":"67f8eb99cd0ff51ec4f5c2ff","timestamp":"2025-04-11T10:14:49.721Z"}
-{"id":"67f8eb99cd0ff51ec4f5c307","level":"info","message":"Seeded parent category","name":"Advertising & Marketing","timestamp":"2025-04-11T10:14:49.766Z"}
-{"id":"67f8eb99cd0ff51ec4f5c309","level":"info","message":"Seeded subcategory","name":"Digital Marketing Services","parentId":"67f8eb99cd0ff51ec4f5c307","timestamp":"2025-04-11T10:14:49.815Z"}
-{"id":"67f8eb99cd0ff51ec4f5c30b","level":"info","message":"Seeded subcategory","name":"Printing & Signage","parentId":"67f8eb99cd0ff51ec4f5c307","timestamp":"2025-04-11T10:14:49.865Z"}
-{"id":"67f8eb99cd0ff51ec4f5c30d","level":"info","message":"Seeded subcategory","name":"Market Research","parentId":"67f8eb99cd0ff51ec4f5c307","timestamp":"2025-04-11T10:14:49.908Z"}
-{"id":"67f8eb99cd0ff51ec4f5c30f","level":"info","message":"Seeded parent category","name":"Cleaning & Sanitation","timestamp":"2025-04-11T10:14:49.969Z"}
-{"id":"67f8eb99cd0ff51ec4f5c311","level":"info","message":"Seeded subcategory","name":"Cleaning Chemicals","parentId":"67f8eb99cd0ff51ec4f5c30f","timestamp":"2025-04-11T10:14:50.014Z"}
-{"id":"67f8eb9acd0ff51ec4f5c313","level":"info","message":"Seeded subcategory","name":"Housekeeping Services","parentId":"67f8eb99cd0ff51ec4f5c30f","timestamp":"2025-04-11T10:14:50.059Z"}
-{"id":"67f8eb9acd0ff51ec4f5c315","level":"info","message":"Seeded subcategory","name":"Cleaning Machines","parentId":"67f8eb99cd0ff51ec4f5c30f","timestamp":"2025-04-11T10:14:50.106Z"}
-{"id":"67f8eb9acd0ff51ec4f5c317","level":"info","message":"Seeded parent category","name":"Toys & Baby Products","timestamp":"2025-04-11T10:14:50.151Z"}
-{"id":"67f8eb9acd0ff51ec4f5c319","level":"info","message":"Seeded subcategory","name":"Educational Toys","parentId":"67f8eb9acd0ff51ec4f5c317","timestamp":"2025-04-11T10:14:50.197Z"}
-{"id":"67f8eb9acd0ff51ec4f5c31b","level":"info","message":"Seeded subcategory","name":"Infant Products","parentId":"67f8eb9acd0ff51ec4f5c317","timestamp":"2025-04-11T10:14:50.245Z"}
-{"id":"67f8eb9acd0ff51ec4f5c31d","level":"info","message":"Seeded subcategory","name":"Kids Apparel","parentId":"67f8eb9acd0ff51ec4f5c317","timestamp":"2025-04-11T10:14:50.312Z"}
-{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-11T10:20:46.958Z"}
-{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-11T10:20:47.905Z"}
-{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-11T10:20:52.195Z"}
-{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-02.cyjlgf2.mongodb.net","timestamp":"2025-04-11T10:20:52.868Z"}
-{"level":"info","message":"Connected to MongoDB for seeding","timestamp":"2025-04-11T10:21:12.349Z"}
-{"level":"info","message":"Cleared existing categories","timestamp":"2025-04-11T10:21:12.649Z"}
-{"id":"67f8ed18198e84f93810edfc","index":0,"level":"info","message":"Seeded parent category","name":"Agriculture and Food Industry","timestamp":"2025-04-11T10:21:12.733Z"}
-{"id":"67f8ed18198e84f93810edfe","index":0,"level":"info","message":"Seeded subcategory","name":"Agricultural Equipment","parentId":"67f8ed18198e84f93810edfc","timestamp":"2025-04-11T10:21:12.777Z"}
-{"id":"67f8ed18198e84f93810ee00","index":1,"level":"info","message":"Seeded subcategory","name":"Food Grains","parentId":"67f8ed18198e84f93810edfc","timestamp":"2025-04-11T10:21:12.824Z"}
-{"id":"67f8ed18198e84f93810ee02","index":2,"level":"info","message":"Seeded subcategory","name":"Dairy Products","parentId":"67f8ed18198e84f93810edfc","timestamp":"2025-04-11T10:21:12.872Z"}
-{"id":"67f8ed18198e84f93810ee04","index":3,"level":"info","message":"Seeded subcategory","name":"Processed Foods","parentId":"67f8ed18198e84f93810edfc","timestamp":"2025-04-11T10:21:12.918Z"}
-{"id":"67f8ed18198e84f93810ee06","index":4,"level":"info","message":"Seeded parent category","name":"Apparel and Fashion","timestamp":"2025-04-11T10:21:12.965Z"}
-{"id":"67f8ed18198e84f93810ee08","index":4,"level":"info","message":"Seeded subcategory","name":"Men's Clothing","parentId":"67f8ed18198e84f93810ee06","timestamp":"2025-04-11T10:21:13.012Z"}
-{"id":"67f8ed19198e84f93810ee0a","index":5,"level":"info","message":"Seeded subcategory","name":"Women's Clothing","parentId":"67f8ed18198e84f93810ee06","timestamp":"2025-04-11T10:21:13.059Z"}
-{"id":"67f8ed19198e84f93810ee0c","index":6,"level":"info","message":"Seeded subcategory","name":"Footwear","parentId":"67f8ed18198e84f93810ee06","timestamp":"2025-04-11T10:21:13.107Z"}
-{"id":"67f8ed19198e84f93810ee0e","index":7,"level":"info","message":"Seeded subcategory","name":"Accessories","parentId":"67f8ed18198e84f93810ee06","timestamp":"2025-04-11T10:21:13.154Z"}
-{"id":"67f8ed19198e84f93810ee10","index":8,"level":"info","message":"Seeded parent category","name":"Automotive Industry","timestamp":"2025-04-11T10:21:13.203Z"}
-{"id":"67f8ed19198e84f93810ee12","index":8,"level":"info","message":"Seeded subcategory","name":"Vehicles","parentId":"67f8ed19198e84f93810ee10","timestamp":"2025-04-11T10:21:13.250Z"}
-{"id":"67f8ed19198e84f93810ee14","index":9,"level":"info","message":"Seeded subcategory","name":"Auto Components","parentId":"67f8ed19198e84f93810ee10","timestamp":"2025-04-11T10:21:13.296Z"}
-{"id":"67f8ed19198e84f93810ee16","index":10,"level":"info","message":"Seeded subcategory","name":"Garage Equipment","parentId":"67f8ed19198e84f93810ee10","timestamp":"2025-04-11T10:21:13.342Z"}
-{"id":"67f8ed19198e84f93810ee18","index":11,"level":"info","message":"Seeded parent category","name":"Construction and Real Estate","timestamp":"2025-04-11T10:21:13.387Z"}
-{"id":"67f8ed19198e84f93810ee1a","index":11,"level":"info","message":"Seeded subcategory","name":"Building Materials","parentId":"67f8ed19198e84f93810ee18","timestamp":"2025-04-11T10:21:13.432Z"}
-{"id":"67f8ed19198e84f93810ee1c","index":12,"level":"info","message":"Seeded subcategory","name":"Construction Machinery","parentId":"67f8ed19198e84f93810ee18","timestamp":"2025-04-11T10:21:13.479Z"}
-{"id":"67f8ed19198e84f93810ee1e","index":13,"level":"info","message":"Seeded subcategory","name":"Real Estate Services","parentId":"67f8ed19198e84f93810ee18","timestamp":"2025-04-11T10:21:13.525Z"}
-{"id":"67f8ed19198e84f93810ee20","index":14,"level":"info","message":"Seeded parent category","name":"Electronics and Electrical","timestamp":"2025-04-11T10:21:13.570Z"}
-{"id":"67f8ed19198e84f93810ee22","index":14,"level":"info","message":"Seeded subcategory","name":"Consumer Electronics","parentId":"67f8ed19198e84f93810ee20","timestamp":"2025-04-11T10:21:13.616Z"}
-{"id":"67f8ed19198e84f93810ee24","index":15,"level":"info","message":"Seeded subcategory","name":"Electrical Equipment","parentId":"67f8ed19198e84f93810ee20","timestamp":"2025-04-11T10:21:13.662Z"}
-{"id":"67f8ed19198e84f93810ee26","index":16,"level":"info","message":"Seeded subcategory","name":"Electronic Components","parentId":"67f8ed19198e84f93810ee20","timestamp":"2025-04-11T10:21:13.719Z"}
-{"id":"67f8ed19198e84f93810ee28","index":17,"level":"info","message":"Seeded parent category","name":"Health and Medical","timestamp":"2025-04-11T10:21:13.767Z"}
-{"id":"67f8ed19198e84f93810ee2a","index":17,"level":"info","message":"Seeded subcategory","name":"Medical Equipment","parentId":"67f8ed19198e84f93810ee28","timestamp":"2025-04-11T10:21:13.829Z"}
-{"id":"67f8ed19198e84f93810ee2c","index":18,"level":"info","message":"Seeded subcategory","name":"Pharmaceuticals","parentId":"67f8ed19198e84f93810ee28","timestamp":"2025-04-11T10:21:13.891Z"}
-{"id":"67f8ed19198e84f93810ee2e","index":19,"level":"info","message":"Seeded subcategory","name":"Healthcare Services","parentId":"67f8ed19198e84f93810ee28","timestamp":"2025-04-11T10:21:13.935Z"}
-{"id":"67f8ed19198e84f93810ee30","index":20,"level":"info","message":"Seeded parent category","name":"Industrial Machinery","timestamp":"2025-04-11T10:21:13.987Z"}
-{"id":"67f8ed19198e84f93810ee32","index":20,"level":"info","message":"Seeded subcategory","name":"Machinery","parentId":"67f8ed19198e84f93810ee30","timestamp":"2025-04-11T10:21:14.034Z"}
-{"id":"67f8ed1a198e84f93810ee34","index":21,"level":"info","message":"Seeded subcategory","name":"Tools and Equipment","parentId":"67f8ed19198e84f93810ee30","timestamp":"2025-04-11T10:21:14.076Z"}
-{"id":"67f8ed1a198e84f93810ee36","index":22,"level":"info","message":"Seeded subcategory","name":"Industrial Supplies","parentId":"67f8ed19198e84f93810ee30","timestamp":"2025-04-11T10:21:14.122Z"}
-{"id":"67f8ed1a198e84f93810ee38","index":23,"level":"info","message":"Seeded parent category","name":"IT and Telecom","timestamp":"2025-04-11T10:21:14.168Z"}
-{"id":"67f8ed1a198e84f93810ee3a","index":23,"level":"info","message":"Seeded subcategory","name":"Software","parentId":"67f8ed1a198e84f93810ee38","timestamp":"2025-04-11T10:21:14.211Z"}
-{"id":"67f8ed1a198e84f93810ee3c","index":24,"level":"info","message":"Seeded subcategory","name":"Hardware","parentId":"67f8ed1a198e84f93810ee38","timestamp":"2025-04-11T10:21:14.259Z"}
-{"id":"67f8ed1a198e84f93810ee3e","index":25,"level":"info","message":"Seeded subcategory","name":"Telecommunication Services","parentId":"67f8ed1a198e84f93810ee38","timestamp":"2025-04-11T10:21:14.302Z"}
-{"id":"67f8ed1a198e84f93810ee40","index":26,"level":"info","message":"Seeded parent category","name":"Office Supplies","timestamp":"2025-04-11T10:21:14.353Z"}
-{"id":"67f8ed1a198e84f93810ee42","index":26,"level":"info","message":"Seeded subcategory","name":"Furniture","parentId":"67f8ed1a198e84f93810ee40","timestamp":"2025-04-11T10:21:14.397Z"}
-{"id":"67f8ed1a198e84f93810ee44","index":27,"level":"info","message":"Seeded subcategory","name":"Stationery","parentId":"67f8ed1a198e84f93810ee40","timestamp":"2025-04-11T10:21:14.441Z"}
-{"id":"67f8ed1a198e84f93810ee46","index":28,"level":"info","message":"Seeded subcategory","name":"Office Automation","parentId":"67f8ed1a198e84f93810ee40","timestamp":"2025-04-11T10:21:14.485Z"}
-{"id":"67f8ed1a198e84f93810ee48","index":29,"level":"info","message":"Seeded parent category","name":"Packaging Industry","timestamp":"2025-04-11T10:21:14.529Z"}
-{"id":"67f8ed1a198e84f93810ee4a","index":29,"level":"info","message":"Seeded subcategory","name":"Packaging Materials","parentId":"67f8ed1a198e84f93810ee48","timestamp":"2025-04-11T10:21:14.572Z"}
-{"id":"67f8ed1a198e84f93810ee4c","index":30,"level":"info","message":"Seeded subcategory","name":"Packaging Machines","parentId":"67f8ed1a198e84f93810ee48","timestamp":"2025-04-11T10:21:14.616Z"}
-{"id":"67f8ed1a198e84f93810ee4e","index":31,"level":"info","message":"Seeded parent category","name":"Chemical Industry","timestamp":"2025-04-11T10:21:14.664Z"}
-{"id":"67f8ed1a198e84f93810ee50","index":31,"level":"info","message":"Seeded subcategory","name":"Industrial Chemicals","parentId":"67f8ed1a198e84f93810ee4e","timestamp":"2025-04-11T10:21:14.708Z"}
-{"id":"67f8ed1a198e84f93810ee52","index":32,"level":"info","message":"Seeded subcategory","name":"Agro Chemicals","parentId":"67f8ed1a198e84f93810ee4e","timestamp":"2025-04-11T10:21:14.751Z"}
-{"id":"67f8ed1a198e84f93810ee54","index":33,"level":"info","message":"Seeded subcategory","name":"Dyes & Pigments","parentId":"67f8ed1a198e84f93810ee4e","timestamp":"2025-04-11T10:21:14.795Z"}
-{"id":"67f8ed1a198e84f93810ee56","index":34,"level":"info","message":"Seeded parent category","name":"Energy & Power","timestamp":"2025-04-11T10:21:14.839Z"}
-{"id":"67f8ed1a198e84f93810ee58","index":34,"level":"info","message":"Seeded subcategory","name":"Renewable Energy","parentId":"67f8ed1a198e84f93810ee56","timestamp":"2025-04-11T10:21:14.884Z"}
-{"id":"67f8ed1a198e84f93810ee5a","index":35,"level":"info","message":"Seeded subcategory","name":"Power Distribution Equipment","parentId":"67f8ed1a198e84f93810ee56","timestamp":"2025-04-11T10:21:14.927Z"}
-{"id":"67f8ed1a198e84f93810ee5c","index":36,"level":"info","message":"Seeded subcategory","name":"Batteries & UPS","parentId":"67f8ed1a198e84f93810ee56","timestamp":"2025-04-11T10:21:14.973Z"}
-{"id":"67f8ed1a198e84f93810ee5e","index":37,"level":"info","message":"Seeded parent category","name":"Education & Training","timestamp":"2025-04-11T10:21:15.016Z"}
-{"id":"67f8ed1b198e84f93810ee60","index":37,"level":"info","message":"Seeded subcategory","name":"EdTech Solutions","parentId":"67f8ed1a198e84f93810ee5e","timestamp":"2025-04-11T10:21:15.063Z"}
-{"id":"67f8ed1b198e84f93810ee62","index":38,"level":"info","message":"Seeded subcategory","name":"Skill Development","parentId":"67f8ed1a198e84f93810ee5e","timestamp":"2025-04-11T10:21:15.107Z"}
-{"id":"67f8ed1b198e84f93810ee64","index":39,"level":"info","message":"Seeded subcategory","name":"Coaching & Tutoring","parentId":"67f8ed1a198e84f93810ee5e","timestamp":"2025-04-11T10:21:15.156Z"}
-{"id":"67f8ed1b198e84f93810ee66","index":40,"level":"info","message":"Seeded parent category","name":"Printing & Publishing","timestamp":"2025-04-11T10:21:15.200Z"}
-{"id":"67f8ed1b198e84f93810ee68","index":40,"level":"info","message":"Seeded subcategory","name":"Commercial Printing","parentId":"67f8ed1b198e84f93810ee66","timestamp":"2025-04-11T10:21:15.250Z"}
-{"id":"67f8ed1b198e84f93810ee6a","index":41,"level":"info","message":"Seeded subcategory","name":"Publishing Services","parentId":"67f8ed1b198e84f93810ee66","timestamp":"2025-04-11T10:21:15.295Z"}
-{"id":"67f8ed1b198e84f93810ee6c","index":42,"level":"info","message":"Seeded subcategory","name":"Packaging Design","parentId":"67f8ed1b198e84f93810ee66","timestamp":"2025-04-11T10:21:15.340Z"}
-{"id":"67f8ed1b198e84f93810ee6e","index":43,"level":"info","message":"Seeded parent category","name":"Tourism & Hospitality","timestamp":"2025-04-11T10:21:15.386Z"}
-{"id":"67f8ed1b198e84f93810ee70","index":43,"level":"info","message":"Seeded subcategory","name":"Hotels & Resorts","parentId":"67f8ed1b198e84f93810ee6e","timestamp":"2025-04-11T10:21:15.437Z"}
-{"id":"67f8ed1b198e84f93810ee72","index":44,"level":"info","message":"Seeded subcategory","name":"Travel Agencies","parentId":"67f8ed1b198e84f93810ee6e","timestamp":"2025-04-11T10:21:15.485Z"}
-{"id":"67f8ed1b198e84f93810ee74","index":45,"level":"info","message":"Seeded subcategory","name":"Catering Services","parentId":"67f8ed1b198e84f93810ee6e","timestamp":"2025-04-11T10:21:15.531Z"}
-{"id":"67f8ed1b198e84f93810ee76","index":46,"level":"info","message":"Seeded parent category","name":"Security & Surveillance","timestamp":"2025-04-11T10:21:15.577Z"}
-{"id":"67f8ed1b198e84f93810ee78","index":46,"level":"info","message":"Seeded subcategory","name":"CCTV & Surveillance","parentId":"67f8ed1b198e84f93810ee76","timestamp":"2025-04-11T10:21:15.626Z"}
-{"id":"67f8ed1b198e84f93810ee7a","index":47,"level":"info","message":"Seeded subcategory","name":"Personal Security Services","parentId":"67f8ed1b198e84f93810ee76","timestamp":"2025-04-11T10:21:15.670Z"}
-{"id":"67f8ed1b198e84f93810ee7c","index":48,"level":"info","message":"Seeded subcategory","name":"Safety Equipment","parentId":"67f8ed1b198e84f93810ee76","timestamp":"2025-04-11T10:21:15.716Z"}
-{"id":"67f8ed1b198e84f93810ee7e","index":49,"level":"info","message":"Seeded parent category","name":"Beauty & Personal Care","timestamp":"2025-04-11T10:21:15.786Z"}
-{"id":"67f8ed1b198e84f93810ee80","index":49,"level":"info","message":"Seeded subcategory","name":"Cosmetics","parentId":"67f8ed1b198e84f93810ee7e","timestamp":"2025-04-11T10:21:15.830Z"}
-{"id":"67f8ed1b198e84f93810ee82","index":50,"level":"info","message":"Seeded subcategory","name":"Salon Equipment","parentId":"67f8ed1b198e84f93810ee7e","timestamp":"2025-04-11T10:21:15.874Z"}
-{"id":"67f8ed1b198e84f93810ee84","index":51,"level":"info","message":"Seeded subcategory","name":"Skincare Products","parentId":"67f8ed1b198e84f93810ee7e","timestamp":"2025-04-11T10:21:15.921Z"}
-{"id":"67f8ed1b198e84f93810ee86","index":52,"level":"info","message":"Seeded parent category","name":"Transportation & Logistics","timestamp":"2025-04-11T10:21:15.971Z"}
-{"id":"67f8ed1b198e84f93810ee88","index":52,"level":"info","message":"Seeded subcategory","name":"Freight & Cargo Services","parentId":"67f8ed1b198e84f93810ee86","timestamp":"2025-04-11T10:21:16.014Z"}
-{"id":"67f8ed1c198e84f93810ee8a","index":53,"level":"info","message":"Seeded subcategory","name":"Vehicle Rentals","parentId":"67f8ed1b198e84f93810ee86","timestamp":"2025-04-11T10:21:16.061Z"}
-{"id":"67f8ed1c198e84f93810ee8c","index":54,"level":"info","message":"Seeded subcategory","name":"Warehousing Solutions","parentId":"67f8ed1b198e84f93810ee86","timestamp":"2025-04-11T10:21:16.109Z"}
-{"id":"67f8ed1c198e84f93810ee8e","index":55,"level":"info","message":"Seeded parent category","name":"Environment & Waste Management","timestamp":"2025-04-11T10:21:16.151Z"}
-{"id":"67f8ed1c198e84f93810ee90","index":55,"level":"info","message":"Seeded subcategory","name":"Recycling Equipment","parentId":"67f8ed1c198e84f93810ee8e","timestamp":"2025-04-11T10:21:16.196Z"}
-{"id":"67f8ed1c198e84f93810ee92","index":56,"level":"info","message":"Seeded subcategory","name":"Waste Disposal Services","parentId":"67f8ed1c198e84f93810ee8e","timestamp":"2025-04-11T10:21:16.239Z"}
-{"id":"67f8ed1c198e84f93810ee94","index":57,"level":"info","message":"Seeded subcategory","name":"Pollution Control Devices","parentId":"67f8ed1c198e84f93810ee8e","timestamp":"2025-04-11T10:21:16.285Z"}
-{"id":"67f8ed1c198e84f93810ee96","index":58,"level":"info","message":"Seeded parent category","name":"Mining & Metals","timestamp":"2025-04-11T10:21:16.330Z"}
-{"id":"67f8ed1c198e84f93810ee98","index":58,"level":"info","message":"Seeded subcategory","name":"Minerals & Ores","parentId":"67f8ed1c198e84f93810ee96","timestamp":"2025-04-11T10:21:16.374Z"}
-{"id":"67f8ed1c198e84f93810ee9a","index":59,"level":"info","message":"Seeded subcategory","name":"Metal Products","parentId":"67f8ed1c198e84f93810ee96","timestamp":"2025-04-11T10:21:16.417Z"}
-{"id":"67f8ed1c198e84f93810ee9c","index":60,"level":"info","message":"Seeded subcategory","name":"Mining Machinery","parentId":"67f8ed1c198e84f93810ee96","timestamp":"2025-04-11T10:21:16.463Z"}
-{"id":"67f8ed1c198e84f93810ee9e","index":61,"level":"info","message":"Seeded parent category","name":"Handicrafts & Handlooms","timestamp":"2025-04-11T10:21:16.510Z"}
-{"id":"67f8ed1c198e84f93810eea0","index":61,"level":"info","message":"Seeded subcategory","name":"Traditional Crafts","parentId":"67f8ed1c198e84f93810ee9e","timestamp":"2025-04-11T10:21:16.557Z"}
-{"id":"67f8ed1c198e84f93810eea2","index":62,"level":"info","message":"Seeded subcategory","name":"Handmade Textiles","parentId":"67f8ed1c198e84f93810ee9e","timestamp":"2025-04-11T10:21:16.600Z"}
-{"id":"67f8ed1c198e84f93810eea4","index":63,"level":"info","message":"Seeded subcategory","name":"Decor Items","parentId":"67f8ed1c198e84f93810ee9e","timestamp":"2025-04-11T10:21:16.644Z"}
-{"id":"67f8ed1c198e84f93810eea6","index":64,"level":"info","message":"Seeded parent category","name":"Legal & Financial Services","timestamp":"2025-04-11T10:21:16.689Z"}
-{"id":"67f8ed1c198e84f93810eea8","index":64,"level":"info","message":"Seeded subcategory","name":"Accounting & Taxation","parentId":"67f8ed1c198e84f93810eea6","timestamp":"2025-04-11T10:21:16.735Z"}
-{"id":"67f8ed1c198e84f93810eeaa","index":65,"level":"info","message":"Seeded subcategory","name":"Legal Consultancy","parentId":"67f8ed1c198e84f93810eea6","timestamp":"2025-04-11T10:21:16.785Z"}
-{"id":"67f8ed1c198e84f93810eeac","index":66,"level":"info","message":"Seeded subcategory","name":"Investment & Insurance","parentId":"67f8ed1c198e84f93810eea6","timestamp":"2025-04-11T10:21:16.829Z"}
-{"id":"67f8ed1c198e84f93810eeae","index":67,"level":"info","message":"Seeded parent category","name":"Sports & Fitness","timestamp":"2025-04-11T10:21:16.876Z"}
-{"id":"67f8ed1c198e84f93810eeb0","index":67,"level":"info","message":"Seeded subcategory","name":"Gym Equipment","parentId":"67f8ed1c198e84f93810eeae","timestamp":"2025-04-11T10:21:16.919Z"}
-{"id":"67f8ed1c198e84f93810eeb2","index":68,"level":"info","message":"Seeded subcategory","name":"Sports Gear","parentId":"67f8ed1c198e84f93810eeae","timestamp":"2025-04-11T10:21:16.965Z"}
-{"id":"67f8ed1c198e84f93810eeb4","index":69,"level":"info","message":"Seeded subcategory","name":"Outdoor & Adventure","parentId":"67f8ed1c198e84f93810eeae","timestamp":"2025-04-11T10:21:17.008Z"}
-{"id":"67f8ed1d198e84f93810eeb6","index":70,"level":"info","message":"Seeded parent category","name":"Events & Entertainment","timestamp":"2025-04-11T10:21:17.072Z"}
-{"id":"67f8ed1d198e84f93810eeb8","index":70,"level":"info","message":"Seeded subcategory","name":"Event Management","parentId":"67f8ed1d198e84f93810eeb6","timestamp":"2025-04-11T10:21:17.116Z"}
-{"id":"67f8ed1d198e84f93810eeba","index":71,"level":"info","message":"Seeded subcategory","name":"Audio Visual Services","parentId":"67f8ed1d198e84f93810eeb6","timestamp":"2025-04-11T10:21:17.161Z"}
-{"id":"67f8ed1d198e84f93810eebc","index":72,"level":"info","message":"Seeded subcategory","name":"Talent & Artist Booking","parentId":"67f8ed1d198e84f93810eeb6","timestamp":"2025-04-11T10:21:17.206Z"}
-{"id":"67f8ed1d198e84f93810eebe","index":73,"level":"info","message":"Seeded parent category","name":"Pets & Animal Supplies","timestamp":"2025-04-11T10:21:17.258Z"}
-{"id":"67f8ed1d198e84f93810eec0","index":73,"level":"info","message":"Seeded subcategory","name":"Pet Food & Accessories","parentId":"67f8ed1d198e84f93810eebe","timestamp":"2025-04-11T10:21:17.310Z"}
-{"id":"67f8ed1d198e84f93810eec2","index":74,"level":"info","message":"Seeded subcategory","name":"Veterinary Products","parentId":"67f8ed1d198e84f93810eebe","timestamp":"2025-04-11T10:21:17.354Z"}
-{"id":"67f8ed1d198e84f93810eec4","index":75,"level":"info","message":"Seeded subcategory","name":"Livestock Supplies","parentId":"67f8ed1d198e84f93810eebe","timestamp":"2025-04-11T10:21:17.399Z"}
-{"id":"67f8ed1d198e84f93810eec6","index":76,"level":"info","message":"Seeded parent category","name":"Home & Garden","timestamp":"2025-04-11T10:21:17.445Z"}
-{"id":"67f8ed1d198e84f93810eec8","index":76,"level":"info","message":"Seeded subcategory","name":"Gardening Tools","parentId":"67f8ed1d198e84f93810eec6","timestamp":"2025-04-11T10:21:17.490Z"}
-{"id":"67f8ed1d198e84f93810eeca","index":77,"level":"info","message":"Seeded subcategory","name":"Home Decor","parentId":"67f8ed1d198e84f93810eec6","timestamp":"2025-04-11T10:21:17.534Z"}
-{"id":"67f8ed1d198e84f93810eecc","index":78,"level":"info","message":"Seeded subcategory","name":"Kitchen Essentials","parentId":"67f8ed1d198e84f93810eec6","timestamp":"2025-04-11T10:21:17.579Z"}
-{"id":"67f8ed1d198e84f93810eece","index":79,"level":"info","message":"Seeded parent category","name":"Plastic & Rubber Industry","timestamp":"2025-04-11T10:21:17.624Z"}
-{"id":"67f8ed1d198e84f93810eed0","index":79,"level":"info","message":"Seeded subcategory","name":"Plastic Raw Materials","parentId":"67f8ed1d198e84f93810eece","timestamp":"2025-04-11T10:21:17.668Z"}
-{"id":"67f8ed1d198e84f93810eed2","index":80,"level":"info","message":"Seeded subcategory","name":"Molded Products","parentId":"67f8ed1d198e84f93810eece","timestamp":"2025-04-11T10:21:17.712Z"}
-{"id":"67f8ed1d198e84f93810eed4","index":81,"level":"info","message":"Seeded subcategory","name":"Rubber Components","parentId":"67f8ed1d198e84f93810eece","timestamp":"2025-04-11T10:21:17.756Z"}
-{"id":"67f8ed1d198e84f93810eed6","index":82,"level":"info","message":"Seeded parent category","name":"Advertising & Marketing","timestamp":"2025-04-11T10:21:17.798Z"}
-{"id":"67f8ed1d198e84f93810eed8","index":82,"level":"info","message":"Seeded subcategory","name":"Digital Marketing Services","parentId":"67f8ed1d198e84f93810eed6","timestamp":"2025-04-11T10:21:17.842Z"}
-{"id":"67f8ed1d198e84f93810eeda","index":83,"level":"info","message":"Seeded subcategory","name":"Printing & Signage","parentId":"67f8ed1d198e84f93810eed6","timestamp":"2025-04-11T10:21:17.886Z"}
-{"id":"67f8ed1d198e84f93810eedc","index":84,"level":"info","message":"Seeded subcategory","name":"Market Research","parentId":"67f8ed1d198e84f93810eed6","timestamp":"2025-04-11T10:21:17.930Z"}
-{"id":"67f8ed1d198e84f93810eede","index":85,"level":"info","message":"Seeded parent category","name":"Cleaning & Sanitation","timestamp":"2025-04-11T10:21:17.972Z"}
-{"id":"67f8ed1d198e84f93810eee0","index":85,"level":"info","message":"Seeded subcategory","name":"Cleaning Chemicals","parentId":"67f8ed1d198e84f93810eede","timestamp":"2025-04-11T10:21:18.016Z"}
-{"id":"67f8ed1e198e84f93810eee2","index":86,"level":"info","message":"Seeded subcategory","name":"Housekeeping Services","parentId":"67f8ed1d198e84f93810eede","timestamp":"2025-04-11T10:21:18.060Z"}
-{"id":"67f8ed1e198e84f93810eee4","index":87,"level":"info","message":"Seeded subcategory","name":"Cleaning Machines","parentId":"67f8ed1d198e84f93810eede","timestamp":"2025-04-11T10:21:18.102Z"}
-{"id":"67f8ed1e198e84f93810eee6","index":88,"level":"info","message":"Seeded parent category","name":"Toys & Baby Products","timestamp":"2025-04-11T10:21:18.155Z"}
-{"id":"67f8ed1e198e84f93810eee8","index":88,"level":"info","message":"Seeded subcategory","name":"Educational Toys","parentId":"67f8ed1e198e84f93810eee6","timestamp":"2025-04-11T10:21:18.204Z"}
-{"id":"67f8ed1e198e84f93810eeea","index":89,"level":"info","message":"Seeded subcategory","name":"Infant Products","parentId":"67f8ed1e198e84f93810eee6","timestamp":"2025-04-11T10:21:18.254Z"}
-{"id":"67f8ed1e198e84f93810eeec","index":90,"level":"info","message":"Seeded subcategory","name":"Kids Apparel","parentId":"67f8ed1e198e84f93810eee6","timestamp":"2025-04-11T10:21:18.313Z"}
-{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-11T10:22:13.813Z"}
-{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-11T10:22:14.612Z"}
-{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-11T10:46:40.363Z"}
-{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-11T10:46:41.291Z"}
-{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-11T10:47:01.206Z"}
-{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-11T10:47:01.720Z"}
-{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-11T11:02:54.560Z"}
-{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-11T11:02:55.533Z"}
-{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-11T11:03:56.933Z"}
-{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-11T11:03:57.780Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T06:02:35.154Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T06:02:35.837Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T06:25:46.966Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T06:25:47.810Z"}
+{"level":"info","message":"Connected to MongoDB for seeding","timestamp":"2025-04-16T06:30:09.411Z"}
+{"level":"info","message":"Cleared existing categories","timestamp":"2025-04-16T06:30:09.671Z"}
+{"id":"67ff4e712c67b0efede75494","index":0,"level":"info","message":"Seeded parent category","name":"Agriculture and Food Industry","timestamp":"2025-04-16T06:30:09.777Z"}
+{"id":"67ff4e712c67b0efede75496","level":"info","message":"Seeded subcategory","name":"Agricultural Equipment","parentId":"67ff4e712c67b0efede75494","timestamp":"2025-04-16T06:30:09.861Z"}
+{"id":"67ff4e712c67b0efede75498","level":"info","message":"Seeded subcategory","name":"Food Grains","parentId":"67ff4e712c67b0efede75494","timestamp":"2025-04-16T06:30:09.905Z"}
+{"id":"67ff4e712c67b0efede7549a","level":"info","message":"Seeded subcategory","name":"Dairy Products","parentId":"67ff4e712c67b0efede75494","timestamp":"2025-04-16T06:30:09.954Z"}
+{"id":"67ff4e712c67b0efede7549c","level":"info","message":"Seeded subcategory","name":"Processed Foods","parentId":"67ff4e712c67b0efede75494","timestamp":"2025-04-16T06:30:10.034Z"}
+{"level":"info","message":"Connected to MongoDB for seeding","timestamp":"2025-04-16T06:34:15.206Z"}
+{"level":"info","message":"Cleared existing categories","timestamp":"2025-04-16T06:34:15.483Z"}
+{"id":"67ff4f67e3dd4cd9d2ed1faa","index":0,"level":"info","message":"Seeded parent category","name":"Agriculture and Food Industry","timestamp":"2025-04-16T06:34:15.633Z"}
+{"id":"67ff4f67e3dd4cd9d2ed1fac","level":"info","message":"Seeded subcategory","name":"Agricultural Equipment","parentId":"67ff4f67e3dd4cd9d2ed1faa","timestamp":"2025-04-16T06:34:15.717Z"}
+{"id":"67ff4f67e3dd4cd9d2ed1fae","level":"info","message":"Seeded subcategory","name":"Food Grains","parentId":"67ff4f67e3dd4cd9d2ed1faa","timestamp":"2025-04-16T06:34:15.761Z"}
+{"id":"67ff4f67e3dd4cd9d2ed1fb0","level":"info","message":"Seeded subcategory","name":"Dairy Products","parentId":"67ff4f67e3dd4cd9d2ed1faa","timestamp":"2025-04-16T06:34:15.807Z"}
+{"id":"67ff4f67e3dd4cd9d2ed1fb2","level":"info","message":"Seeded subcategory","name":"Processed Foods","parentId":"67ff4f67e3dd4cd9d2ed1faa","timestamp":"2025-04-16T06:34:15.894Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T06:34:43.658Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T06:34:44.297Z"}
+{"level":"info","message":"Connected to MongoDB for seeding","timestamp":"2025-04-16T06:34:59.523Z"}
+{"level":"info","message":"Cleared existing categories","timestamp":"2025-04-16T06:34:59.835Z"}
+{"id":"67ff4f93443cb92addd04316","index":0,"level":"info","message":"Seeded parent category","name":"Agriculture and Food Industry","timestamp":"2025-04-16T06:34:59.975Z"}
+{"id":"67ff4f93443cb92addd04318","level":"info","message":"Seeded subcategory","name":"Agricultural Equipment","parentId":"67ff4f93443cb92addd04316","timestamp":"2025-04-16T06:35:00.067Z"}
+{"id":"67ff4f94443cb92addd0431a","level":"info","message":"Seeded subcategory","name":"Food Grains","parentId":"67ff4f93443cb92addd04316","timestamp":"2025-04-16T06:35:00.111Z"}
+{"id":"67ff4f94443cb92addd0431c","level":"info","message":"Seeded subcategory","name":"Dairy Products","parentId":"67ff4f93443cb92addd04316","timestamp":"2025-04-16T06:35:00.156Z"}
+{"id":"67ff4f94443cb92addd0431e","level":"info","message":"Seeded subcategory","name":"Processed Foods","parentId":"67ff4f93443cb92addd04316","timestamp":"2025-04-16T06:35:00.245Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T06:36:04.289Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T06:36:04.951Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T12:11:39.008Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T12:11:40.332Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T12:19:41.063Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T12:19:41.628Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T12:20:08.480Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T12:20:09.539Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T12:32:46.042Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T12:32:46.682Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T12:38:21.794Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T12:38:22.427Z"}
+{"level":"info","message":"Connected to MongoDB for seeding","timestamp":"2025-04-16T12:38:31.864Z"}
+{"level":"info","message":"Cleared existing categories","timestamp":"2025-04-16T12:38:32.138Z"}
+{"id":"67ffa4c803c60b12cf8ca648","index":0,"level":"info","message":"Seeded parent category","name":"Agriculture and Food Industry","timestamp":"2025-04-16T12:38:32.272Z"}
+{"id":"67ffa4c803c60b12cf8ca64a","level":"info","message":"Seeded subcategory","name":"Agricultural Equipment","parentId":"67ffa4c803c60b12cf8ca648","timestamp":"2025-04-16T12:38:32.313Z"}
+{"id":"67ffa4c803c60b12cf8ca64c","level":"info","message":"Seeded subcategory","name":"Food Grains","parentId":"67ffa4c803c60b12cf8ca648","timestamp":"2025-04-16T12:38:32.357Z"}
+{"id":"67ffa4c803c60b12cf8ca64e","level":"info","message":"Seeded subcategory","name":"Dairy Products","parentId":"67ffa4c803c60b12cf8ca648","timestamp":"2025-04-16T12:38:32.394Z"}
+{"id":"67ffa4c803c60b12cf8ca650","level":"info","message":"Seeded subcategory","name":"Processed Foods","parentId":"67ffa4c803c60b12cf8ca648","timestamp":"2025-04-16T12:38:32.434Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T12:38:44.463Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-02.cyjlgf2.mongodb.net","timestamp":"2025-04-16T12:38:44.937Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T12:43:18.893Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T12:43:19.613Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T12:48:47.523Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T12:48:48.220Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T12:59:06.073Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T12:59:06.711Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T12:59:18.458Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-02.cyjlgf2.mongodb.net","timestamp":"2025-04-16T12:59:18.980Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T12:59:22.267Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T12:59:22.766Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T13:01:41.160Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T13:01:41.768Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T13:01:48.663Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T13:01:49.186Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T13:03:49.122Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T13:03:49.847Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T13:05:25.430Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T13:05:26.019Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T13:08:48.902Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T13:08:49.448Z"}
+{"level":"error","message":"Internal Server Error: request entity too large","stack":"PayloadTooLargeError: request entity too large\n    at readStream (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\raw-body\\index.js:163:17)\n    at getRawBody (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\raw-body\\index.js:116:12)\n    at read (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\body-parser\\lib\\read.js:74:3)\n    at jsonParser (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\body-parser\\lib\\types\\json.js:125:5)\n    at Layer.handleRequest (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\index.js:342:13)\n    at D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\index.js:582:12)\n    at next (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\index.js:291:5)\n    at Function.handle (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\index.js:186:3)","timestamp":"2025-04-16T13:22:14.981Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T13:24:42.487Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T13:24:43.092Z"}
+{"level":"error","message":"Internal Server Error: request entity too large","stack":"PayloadTooLargeError: request entity too large\n    at readStream (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\raw-body\\index.js:163:17)\n    at getRawBody (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\raw-body\\index.js:116:12)\n    at read (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\body-parser\\lib\\read.js:74:3)\n    at jsonParser (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\body-parser\\lib\\types\\json.js:125:5)\n    at Layer.handleRequest (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\index.js:342:13)\n    at D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\index.js:582:12)\n    at next (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\index.js:291:5)\n    at Function.handle (D:\\web_dev\\PBMart-Backend\\Categories Service\\node_modules\\router\\index.js:186:3)","timestamp":"2025-04-16T13:24:49.261Z"}
+{"level":"info","message":"Categories Service running on port 3005","timestamp":"2025-04-16T13:27:46.978Z"}
+{"level":"info","message":"MongoDB Connected: ac-4pxtmmu-shard-00-00.cyjlgf2.mongodb.net","timestamp":"2025-04-16T13:27:47.554Z"}
