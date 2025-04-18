@@ -10,6 +10,7 @@ const productSchema = new mongoose.Schema({
   stock: { type: Number, required: true, min: 0 },
   sellerId: { type: String, required: true },
   categoryId: { type: String, required: true },
+  subCategoryId: { type: String, required: true },
   status: { type: String, enum: ['active', 'inactive', 'outofstock'], default: 'active' },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },

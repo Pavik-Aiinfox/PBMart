@@ -4,12 +4,14 @@ const logger = require('./src/config/logger');
 const productRoutes = require('./src/routes/productRoutes');
 const { connectDB } = require('./src/config/db');
 const cors = require('cors');
-
+const bodyParser = require('body-parser');
 const app = express();
 
 // Middleware to parse JSON
 app.use(express.json({ limit: '100mb' }));
 app.use(express.urlencoded({ limit: '100mb', extended: true }));
+app.use(bodyParser.json()); // Parse JSON bodies
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // CORS configuration
 const corsOptions = {

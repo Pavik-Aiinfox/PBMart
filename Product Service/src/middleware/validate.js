@@ -8,6 +8,7 @@ const productSchema = Joi.object({
   stock: Joi.number().min(0).required(),
   sellerId: Joi.string().required(),
   categoryId: Joi.string().required(),
+  subCategoryId: Joi.string().required(),
   status: Joi.string().valid('active', 'inactive', 'outofstock').default('active').optional(),
 });
 

@@ -13,7 +13,7 @@ const loginLimiter = rateLimit({
 
 const otpRequestLimiter = rateLimit({
   windowMs: 60 * 60 * 1000,
-  max: 3,
+  max: 5,
   message: 'Too many OTP requests, please try again later.',
   handler: (req, res) => {
     logger.warn(`OTP request limit exceeded for IP: ${req.ip}`);

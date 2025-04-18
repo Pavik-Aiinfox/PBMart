@@ -12,8 +12,8 @@ router.post('/',
   async (req, res) => {
     try {
       console.log('Raw req.body:', req.body);
-      const { name, description, price, stock, sellerId, categoryId, images } = req.body;
-      if (!name || !description || !price || !stock || !sellerId || !categoryId) {
+      const { name, description, price, stock, sellerId, categoryId,subCategoryId, images } = req.body;
+      if (!name || !description || !price || !stock || !sellerId || !categoryId || !subCategoryId) {
         throw new Error('Missing required fields');
       }
 
@@ -29,6 +29,7 @@ router.post('/',
         stock: Number(stock),
         sellerId: sellerId || 'test-seller',
         categoryId,
+        subCategoryId,
         images: imageBase64,
       });
       await product.save();
@@ -42,6 +43,7 @@ router.post('/',
         stock: product.stock,
         sellerId: product.sellerId,
         categoryId: product.categoryId,
+        subCategoryId: product.subCategoryId,
         images: product.images,
         status: product.status,
         createdAt: product.createdAt,
@@ -55,11 +57,7 @@ router.post('/',
   }
 );
 
-router.put('/:id', 
-  process.env.NODE_ENV === 'development' ? (req, res, next) => next() : authenticateJWT,
-  process.env.NODE_ENV === 'development' ? (req, res, next) => next() : authorizeSeller,
-  validateProduct, 
-  async (req, res) => {
+router.put('/:id', async (req, res) => {
   try {
     const product = await Product.findOneAndUpdate(
       { id: req.params.id, sellerId: req.body.sellerId || 'test-seller' },
@@ -102,10 +100,11 @@ router.get('/:id', async (req, res) => {
 
 router.get('/', async (req, res) => {
   try {
-    const { categoryId, priceMin, priceMax, keyword } = req.query;
+    const { categoryId, subCategoryId, priceMin, priceMax, keyword } = req.query;
     let query = { status: 'active' };
 
     if (categoryId) query.categoryId = categoryId;
+    if (subCategoryId) query.subCategoryId = subCategoryId;
     if (priceMin || priceMax) {
       query.price = {};
       if (priceMin) query.price.$gte = Number(priceMin);

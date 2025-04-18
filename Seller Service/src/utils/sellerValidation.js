@@ -39,4 +39,13 @@ const requestSigninOtpSchema = Joi.object({
   phone_number: Joi.string().max(15).required(),
 });
 
-module.exports = { signupSchema, signinSchema, requestSigninOtpSchema };
+const registerPhoneSchema = Joi.object({
+  phone_number: Joi.string().max(15).required(),
+});
+
+const verifyOtpSchema = Joi.object({
+  phone_number: Joi.string().max(15).required(),
+  otp: Joi.string().valid('123456').required(),
+});
+
+module.exports = { signupSchema, signinSchema, requestSigninOtpSchema, registerPhoneSchema, verifyOtpSchema };

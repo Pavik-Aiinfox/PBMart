@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const { jwtSecret } = require('../config');
 const logger = require('../config/logger');
 
-const generateToken = (seller, expiresIn = '24h') => {
+const generateToken = (seller, expiresIn = '7d') => {
   try {
     return jwt.sign({ id: seller._id, phone_number: seller.phone_number }, jwtSecret, { expiresIn });
   } catch (error) {
